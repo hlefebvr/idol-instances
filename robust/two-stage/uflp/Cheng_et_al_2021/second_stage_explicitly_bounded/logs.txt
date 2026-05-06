@@ -1,0 +1,54 @@
+╔════════════════════════════════════════╗
+║               idol 0.9.0               ║
+║    A C++ Framework for Optimization    ║
+║         by Henri Lefebvre, 2026        ║
+║     https://henrilefebvre.com/idol     ║
+╚════════════════════════════════════════╝
+-- No configuration file loaded
+-- The main input file is Cap_F10_C10-100.mps
+-- Detected: problem type is adjustable robust problem
+-- Detected: two-stage robust problem.
+-- Detected: all second-stage variables are explicitly bounded.
+-- Detected: continuous second-stage decisions.
+-- Detected: binary uncertainty set.
+-- Detected: applicable methods are [CCG-FARKAS, CCG-MIBS, CCG-KKT-SOS1, YASOL]
+-- Solving using CCG-FARKAS
+-- Solving problem using CCG-FARKAS.
+********************************************************************************************
+                              Column-and-constraint Generation                              
+********************************************************************************************
+    Time (s)	# Iter.	# Scen.	          LB	          UB	     Gap (%)	    Abs. Gap
+--------------------------------------------------------------------------------------------
+    0.020968s	    0	    2	  3.7145e+05	         Inf	         Inf	         Inf
+    0.036118s	    1	    3	  4.3632e+05	  1.4201e+06	      69.276	  9.8382e+05
+    0.052986s	    2	    4	  4.6646e+05	   1.338e+06	      65.139	  8.7159e+05
+    0.073061s	    3	    5	  4.6911e+05	   1.338e+06	       64.94	  8.6893e+05
+     0.10701s	    4	    6	   4.994e+05	  6.3186e+05	      20.963	  1.3246e+05
+      0.1401s	    5	    7	  5.0266e+05	  6.0104e+05	      16.369	       98382
+     0.18559s	    6	    8	  5.1951e+05	  6.0104e+05	      13.564	       81525
+     0.23398s	    7	    9	  5.2822e+05	  6.0104e+05	      12.116	       72821
+     0.29298s	    8	   10	  5.2838e+05	  6.0104e+05	      12.089	       72661
+     0.34141s	    9	   11	  5.2921e+05	  6.0104e+05	      11.951	       71832
+     0.40617s	   10	   12	  5.3246e+05	  6.0104e+05	      11.411	       68583
+     0.47576s	   11	   13	  5.3828e+05	  6.0104e+05	      10.442	       62762
+     0.55075s	   12	   14	  5.3889e+05	  6.0104e+05	       10.34	       62149
+     0.61026s	   13	   15	   5.445e+05	  6.0104e+05	      9.4064	       56536
+     0.67755s	   14	   16	  5.4748e+05	  6.0104e+05	      8.9116	       53562
+     0.74968s	   15	   17	  5.5067e+05	  6.0104e+05	      8.3803	       50369
+     0.85048s	   16	   18	  5.6242e+05	  6.0104e+05	      6.4257	       38621
+     0.94748s	   17	   19	  5.6587e+05	  6.0104e+05	      5.8519	       35172
+      1.0536s	   18	   20	  5.6761e+05	  6.0104e+05	      5.5624	       33432
+      1.1839s	   19	   21	  5.7057e+05	  6.0104e+05	      5.0694	       30469
+      1.2747s	   20	   22	  5.7248e+05	  6.0104e+05	      4.7521	       28562
+The optimality gap has been closed. Terminating...
+Done in 21 iterations and 1.39911 seconds.
+Reported status is Optimal (Proved).
+Spent 1.07334 solving the master problem and 0.297775 solving the separation problem.
+Status: Optimal
+Reason: Proved
+Time: 1.39912
+Best Obj.: 575257
+Best Bound: 575257
+Rel. Gap: 0 %
+Abs. Gap: 0
+csv,,3600,Cap_F10_C10-100.mps,Cap_F10_C10-100.aux,,Cap_F10_C10-100.par,Cap_F10_C10-100-gamma-uncertainty-2.mps,Optimal,Proved,1.39912,575257,575257,0,0

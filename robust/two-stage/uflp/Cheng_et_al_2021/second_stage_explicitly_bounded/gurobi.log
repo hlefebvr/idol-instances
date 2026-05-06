@@ -1,0 +1,97 @@
+
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Thu Apr 23 15:49:20 2026
+
+Set parameter Username
+Set parameter LicenseID to value 2765553
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/henri/gurobi.lic
+Academic license - for non-commercial use only - expires 2027-01-14
+
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Thu Apr 23 15:49:33 2026
+
+Set parameter Username
+Set parameter LicenseID to value 2765553
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/henri/gurobi.lic
+Academic license - for non-commercial use only - expires 2027-01-14
+
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.3.0 25D125)
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read MPS format model from file /Users/henri/Research/papers/published/martin-computing-weak-counterfactual-explanations/github/code/netlib/data/mps/boeing2.mps
+Reading time = 0.00 seconds
+BOEING2: 166 rows, 162 columns, 1215 nonzeros
+
+Using Gurobi shared library /Library/gurobi1300/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M5
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 166 rows, 162 columns and 1215 nonzeros (Min)
+Model fingerprint: 0xbf250ec0
+Model has 143 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-02, 3e+03]
+  Objective range  [1e-02, 7e+00]
+  Bounds range     [2e+00, 5e+02]
+  RHS range        [1e+00, 1e+05]
+Presolve removed 44 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 122 rows, 160 columns, 811 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -4.4429700e+02   4.516125e+03   0.000000e+00      0s
+     126   -3.1501873e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 126 iterations and 0.01 seconds (0.00 work units)
+Optimal objective -3.150187280e+02
+
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Thu Apr 23 17:18:47 2026
+
+Set parameter Username
+Set parameter LicenseID to value 2765553
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/henri/gurobi.lic
+Academic license - for non-commercial use only - expires 2027-01-14
+
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.3.0 25D125)
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read MPS format model from file Cap_F10_C10-100.mps
+Reading time = 0.00 seconds
+Cap_F10_C10-100: 110 rows, 121 columns, 310 nonzeros
+
+Using Gurobi shared library /Library/gurobi1300/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M5
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 110 rows, 121 columns and 310 nonzeros (Min)
+Model fingerprint: 0x8b40c3e5
+Model has 111 linear objective coefficients
+Variable types: 111 continuous, 10 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1289644.0000
+Presolve removed 2 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 108 rows, 116 columns, 302 nonzeros
+Variable types: 88 continuous, 28 integer (28 binary)
+
+Root relaxation: objective 3.306220e+05, 33 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    330622.00000 330622.000  0.00%     -    0s
+
+Explored 1 nodes (33 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 2: 330622 1.28964e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.306220000000e+05, best bound 3.306220000000e+05, gap 0.0000%
