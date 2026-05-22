@@ -1,4 +1,4 @@
-NAME /Users/henri/Research/solvers/instances/idol-instances/robust/cflp_Cheng_et_al_2021/instances/Cap_F20_C49_d100/uncertainty_sets/uncertainty_sets/gamma-4.000000.mps
+NAME /Users/henri/Research/solvers/instances/idol-instances/robust/collection/cflp_Cheng_et_al_2021/Cap_F20_C49_d100/uncertainty_sets/uncertainty_sets/gamma-4.000000.mps
 ROWS
  N  OBJ
  L  c_125

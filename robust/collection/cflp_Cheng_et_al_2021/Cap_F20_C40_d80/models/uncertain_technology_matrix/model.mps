@@ -1,4 +1,4 @@
-NAME /Users/henri/Research/solvers/instances/idol-instances/robust/cflp_Cheng_et_al_2021/instances/Cap_F20_C40_d80/models/uncertain_technology_matrix/
+NAME /Users/henri/Research/solvers/instances/idol-instances/robust/collection/cflp_Cheng_et_al_2021/Cap_F20_C40_d80/models/uncertain_technology_matrix/
 ROWS
  N  OBJ
  G  demand_0
