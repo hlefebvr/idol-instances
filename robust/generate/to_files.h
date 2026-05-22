@@ -40,7 +40,7 @@ template<unsigned int DIM>
 inline void
 generate_budgeted_uncertainty_set_files(const idol::Dim<DIM>& t_dims, const std::list<double>& t_budgets, idol::VarType t_type, const std::filesystem::path& t_folder) {
     idol::Env env;
-    std::filesystem::create_directories(t_folder.string() + "/uncertainty_sets/");
+    std::filesystem::create_directories(t_folder.string());
     for (const auto& budget : t_budgets) {
 
         std::ostringstream ss;
@@ -50,7 +50,7 @@ generate_budgeted_uncertainty_set_files(const idol::Dim<DIM>& t_dims, const std:
 
         idol::write_to_file(
             build_budgeted_uncertainty_set(env, t_dims, budget, t_type),
-            t_folder.string() + "/uncertainty_sets/gamma-" + pretty_budget
+            t_folder.string() + "/gamma-" + pretty_budget
         );
     }
 }
