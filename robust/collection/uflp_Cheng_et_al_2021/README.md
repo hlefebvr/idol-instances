@@ -21,12 +21,12 @@ In this version, the uncertain parameters only appear in the right-hand side of 
 
 The set $Y(x,u)$ is therefore given by
 $$
-\begin{align*}
+\begin{align}
     & \sum_{j=1}^m y_{ij} + u_j \ge 1, \quad\text{for all } i=1,...,n, \\
     & y_{ij} \le x_i, \quad\text{for all } i=1,...,n, j=1,...,m, \\
     & y_{ij} \le 1 - u_j, \quad\text{for all } i=1,...,n, j=1,...,m, \\
     & y_{ij} \ge 0, \quad\text{for all } i=1,...,n, j=1,...,m.
-\end{align*}
+\end{align}
 $$
 
 ### Uncertain Technology Matrix
@@ -36,11 +36,11 @@ there are products between the first-stage decisions and the uncertain parameter
 
 The set $Y(x,u)$ is therefore given by
 $$
-\begin{align*}
+\begin{align}
     & \sum_{j=1}^m y_{ij} + u_j \ge 1, \quad\text{for all } i=1,...,n, \\
     & y_{ij} \le x_i(1 - u_j), \quad\text{for all } i=1,...,n, j=1,...,m, \\
     & y_{ij} \ge 0, \quad\text{for all } i=1,...,n, j=1,...,m.
-\end{align*}
+\end{align}
 $$
 
 ## Other Resources
