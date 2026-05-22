@@ -8,9 +8,8 @@ An online version of the paper is [available here](https://hanalog.ca/wp-content
 The problem can be modeled as
 
 $$
-\min_{x\in\{0,1\}^n} \ \left\{ \sum_{i=1}^n f_ix_i + \max_{u\in U} \ \min_{(y,z)\in Y(x,u)} \
+\min_{x\in\{0,1\}^n} \ \sum_{i=1}^n f_ix_i + \max_{u\in U} \ \min_{(y,z)\in Y(x,u)} \
 \sum_{i=1}^n\sum_{j=1}^m d_jt_{ij}y_{ij} + \sum_{j=1}^m p_jz_j
-\right\}
 $$
 
 in which $Y(x,u)$ denotes the second-stage feasible region.
