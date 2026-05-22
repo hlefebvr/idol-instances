@@ -191,7 +191,7 @@ int main(int t_argc, const char** t_argv) {
             const auto instance_folder = destination_folder + "/" + instance_name;
 
             to_files(build_uncertain_rhs_model(env, instance), instance_folder + "/models/uncertain_rhs/");
-            to_files(build_uncertain_technology_matrix_model(env, instance), instance_folder + "/models/uncertain_technology/");
+            to_files(build_uncertain_technology_matrix_model(env, instance), instance_folder + "/models/uncertain_technology_matrix/");
 
             // Create uncertainty sets
             std::filesystem::create_directories(instance_folder + "/uncertainty_sets");
