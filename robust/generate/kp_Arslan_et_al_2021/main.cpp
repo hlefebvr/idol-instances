@@ -59,10 +59,13 @@ build_uncertain_obj_model(Env& t_env, const Instance& t_instance) {
     Robust::Description robust_description(uncertainty_set);
 
     // Constraints
-    model.add_ctr(idol_Sum(i, Range(t_instance.n_items), t_instance.items[i].c * y[i] + t_instance.items[i].t * r[i]) <= t_instance.capacity);
+    model.add_ctr(
+        idol_Sum(i, Range(t_instance.n_items), t_instance.items[i].c * y[i] + t_instance.items[i].t * r[i]) <= t_instance.capacity,
+        "capacity"
+    );
     for (auto i : Range(t_instance.n_items)) {
-        model.add_ctr(y[i] <= x[i]);
-        model.add_ctr(r[i] <= y[i]);
+        model.add_ctr(y[i] <= x[i], "wo_repair");
+        model.add_ctr(r[i] <= y[i], "w_repair");
     }
 
     // Objective function
