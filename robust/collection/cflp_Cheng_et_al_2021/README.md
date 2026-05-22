@@ -38,7 +38,7 @@ The set $Y(x,u)$ is therefore given by
 ```math
 \begin{align}
     & \sum_{j=1}^m y_{ij} + u_j \ge 1, \quad\text{for all } i=1,...,n, \\
-    & \sum_{j=1}^m d_j y_{ij} \le s_i x_i(1 - u_i), \quad\text{for all } i=1,...,n, \\
+    & \sum_{j=1}^m d_j y_{ij} \le q_i x_i(1 - u_i), \quad\text{for all } i=1,...,n, \\
     & y_{ij} \ge 0, \quad\text{for all } i=1,...,n, j=1,...,m.
 \end{align}
 ```

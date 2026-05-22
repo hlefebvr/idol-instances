@@ -1,0 +1,403 @@
+@RHS
+@OBJ
+x_0	u_3	0.345624
+x_0	u_2	3.48468
+x_0	u_1	0.967987
+x_0	u_0	0.135639
+y_22	u_0	0.193385
+y_22	u_1	1.64098
+y_22	u_2	0.173815
+y_22	u_3	0.0403165
+x_1	u_3	0.815938
+x_1	u_2	2.75014
+x_1	u_1	0.891089
+x_1	u_0	0.460425
+y_1	u_0	0.36834
+y_1	u_1	0.712871
+y_1	u_2	2.20011
+y_1	u_3	0.652751
+x_3	u_3	0.146412
+x_3	u_2	0.425519
+x_3	u_1	0.0358236
+x_3	u_0	0.178004
+x_2	u_3	0.990163
+x_2	u_2	1.55535
+x_2	u_1	0.654957
+x_2	u_0	0.248935
+y_0	u_0	0.108511
+y_0	u_1	0.77439
+y_0	u_2	2.78774
+y_0	u_3	0.276499
+y_2	u_0	0.199148
+y_2	u_1	0.523966
+y_2	u_2	1.24428
+y_2	u_3	0.79213
+x_4	u_3	1.301
+x_4	u_2	0.269077
+x_4	u_1	0.9892
+x_4	u_0	0.118172
+x_5	u_3	0.140009
+x_5	u_2	0.0108565
+x_5	u_1	0.0528754
+x_5	u_0	0.0645402
+y_3	u_0	0.142403
+y_3	u_1	0.0286589
+y_3	u_2	0.340415
+y_3	u_3	0.11713
+y_4	u_0	0.0945375
+y_4	u_1	0.79136
+y_4	u_2	0.215261
+y_4	u_3	1.0408
+x_6	u_3	0.486387
+x_6	u_2	0.399509
+x_6	u_1	0.506503
+x_6	u_0	0.789576
+y_5	u_0	0.0516322
+y_5	u_1	0.0423003
+y_5	u_2	0.00868516
+y_5	u_3	0.112007
+x_7	u_3	0.0549396
+x_7	u_2	0.188755
+x_7	u_1	0.00805349
+x_7	u_0	0.0921362
+y_6	u_0	0.631661
+y_6	u_1	0.405203
+y_6	u_2	0.319607
+y_6	u_3	0.38911
+x_8	u_3	0.298509
+x_8	u_2	0.0327757
+x_8	u_1	1.06543
+x_8	u_0	0.584408
+y_7	u_0	0.073709
+y_7	u_1	0.00644279
+y_7	u_2	0.151004
+y_7	u_3	0.0439517
+x_9	u_3	0.314789
+x_9	u_2	2.9418
+x_9	u_1	0.527253
+x_9	u_0	0.467336
+y_8	u_0	0.467527
+y_8	u_1	0.852343
+y_8	u_2	0.0262205
+y_8	u_3	0.238807
+x_10	u_3	0.04638
+x_10	u_2	0.0221331
+x_10	u_1	0.0512248
+x_10	u_0	0.0761888
+y_9	u_0	0.373869
+y_9	u_1	0.421803
+y_9	u_2	2.35344
+y_9	u_3	0.251831
+x_11	u_3	0.948061
+x_11	u_2	0.721206
+x_11	u_1	0.771874
+x_11	u_0	1.23557
+y_10	u_0	0.060951
+y_10	u_1	0.0409799
+y_10	u_2	0.0177065
+y_10	u_3	0.037104
+y_11	u_0	0.988454
+y_11	u_1	0.617499
+y_11	u_2	0.576965
+y_11	u_3	0.758449
+x_12	u_3	1.02432
+x_12	u_2	0.114802
+x_12	u_1	1.61423
+x_12	u_0	0.639863
+y_12	u_0	0.511891
+y_12	u_1	1.29138
+y_12	u_2	0.0918413
+y_12	u_3	0.819458
+x_13	u_3	1.20096
+x_13	u_2	1.29491
+x_13	u_1	0.576924
+x_13	u_0	1.73044
+y_13	u_0	1.38436
+y_13	u_1	0.461539
+y_13	u_2	1.03593
+y_13	u_3	0.960771
+x_14	u_3	0.172814
+x_14	u_2	0.450272
+x_14	u_1	0.211965
+x_14	u_0	0.549574
+y_14	u_0	0.439659
+y_14	u_1	0.169572
+y_14	u_2	0.360218
+y_14	u_3	0.138251
+x_15	u_3	0.178169
+x_15	u_2	0.923256
+x_15	u_1	0.581528
+x_15	u_0	0.36604
+y_15	u_0	0.292832
+y_15	u_1	0.465222
+y_15	u_2	0.738605
+y_15	u_3	0.142535
+x_16	u_3	0.729107
+x_16	u_2	0.256843
+x_16	u_1	0.581878
+x_16	u_0	0.243754
+y_16	u_0	0.195003
+y_16	u_1	0.465502
+y_16	u_2	0.205475
+y_16	u_3	0.583286
+x_17	u_3	0.614226
+x_17	u_2	0.0827912
+x_17	u_1	0.0454119
+x_17	u_0	0.0957806
+y_17	u_0	0.0766245
+y_17	u_1	0.0363295
+y_17	u_2	0.066233
+y_17	u_3	0.491381
+x_18	u_3	2.05553
+x_18	u_2	0.194597
+x_18	u_1	0.0848823
+x_18	u_0	0.748982
+y_18	u_0	0.599185
+y_18	u_1	0.0679058
+y_18	u_2	0.155677
+y_18	u_3	1.64443
+x_19	u_3	3.61496
+x_19	u_2	0.0699957
+x_19	u_1	0.0696242
+x_19	u_0	0.554301
+y_19	u_0	0.443441
+y_19	u_1	0.0556994
+y_19	u_2	0.0559965
+y_19	u_3	2.89197
+x_20	u_3	1.00506
+x_20	u_2	0.153527
+x_20	u_1	1.50487
+x_20	u_0	1.98489
+y_20	u_0	1.58791
+y_20	u_1	1.20389
+y_20	u_2	0.122822
+y_20	u_3	0.804052
+x_21	u_3	2.41401
+x_21	u_2	0.36383
+x_21	u_1	0.08239
+x_21	u_0	0.696214
+y_21	u_0	0.556971
+y_21	u_1	0.065912
+y_21	u_2	0.291064
+y_21	u_3	1.93121
+x_22	u_3	0.0503956
+x_22	u_2	0.217268
+x_22	u_1	2.05123
+x_22	u_0	0.241731
+x_23	u_3	0.00311616
+x_23	u_2	1.1953
+x_23	u_1	0.829266
+x_23	u_0	1.67755
+y_23	u_0	1.34204
+y_23	u_1	0.663413
+y_23	u_2	0.956236
+y_23	u_3	0.00249293
+x_24	u_3	0.693914
+x_24	u_2	2.5311
+x_24	u_1	0.252106
+x_24	u_0	0.878104
+y_24	u_0	0.702483
+y_24	u_1	0.201685
+y_24	u_2	2.02488
+y_24	u_3	0.555131
+@MAT
+capacity	y_24	u_0	0.223973
+capacity	y_24	u_1	0.0303027
+capacity	y_24	u_2	0.0940611
+capacity	y_24	u_3	0.522707
+capacity	x_24	u_0	0.223973
+capacity	x_24	u_1	0.0303027
+capacity	x_24	u_2	0.0940611
+capacity	x_24	u_3	0.522707
+capacity	y_23	u_0	0.0139991
+capacity	y_23	u_1	0.236932
+capacity	y_23	u_2	0.180839
+capacity	y_23	u_3	0.309277
+capacity	x_23	u_0	0.0139991
+capacity	x_23	u_1	0.236932
+capacity	x_23	u_2	0.180839
+capacity	x_23	u_3	0.309277
+capacity	x_22	u_0	0.0305916
+capacity	x_22	u_1	0.145421
+capacity	x_22	u_2	0.195571
+capacity	x_22	u_3	0.140541
+capacity	y_21	u_0	0.333944
+capacity	y_21	u_1	0.015106
+capacity	y_21	u_2	0.256652
+capacity	y_21	u_3	0.105587
+capacity	x_21	u_0	0.333944
+capacity	x_21	u_1	0.015106
+capacity	x_21	u_2	0.256652
+capacity	x_21	u_3	0.105587
+capacity	y_20	u_0	0.0944651
+capacity	y_20	u_1	0.265494
+capacity	y_20	u_2	0.549437
+capacity	y_20	u_3	0.0202737
+capacity	x_20	u_0	0.0944651
+capacity	x_20	u_1	0.265494
+capacity	x_20	u_2	0.549437
+capacity	x_20	u_3	0.0202737
+capacity	y_19	u_0	0.176882
+capacity	y_19	u_1	0.187057
+capacity	y_19	u_2	0.22759
+capacity	y_19	u_3	0.270249
+capacity	x_19	u_0	0.176882
+capacity	x_19	u_1	0.187057
+capacity	x_19	u_2	0.22759
+capacity	x_19	u_3	0.270249
+capacity	y_18	u_0	0.281381
+capacity	y_18	u_1	0.114021
+capacity	y_18	u_2	0.192612
+capacity	y_18	u_3	0.0287836
+capacity	x_18	u_0	0.281381
+capacity	x_18	u_1	0.114021
+capacity	x_18	u_2	0.192612
+capacity	x_18	u_3	0.0287836
+capacity	y_17	u_0	0.0956604
+capacity	y_17	u_1	0.0160758
+capacity	y_17	u_2	0.0414445
+capacity	y_17	u_3	0.0144612
+capacity	x_17	u_0	0.0956604
+capacity	x_17	u_1	0.0160758
+capacity	x_17	u_2	0.0414445
+capacity	x_17	u_3	0.0144612
+capacity	y_16	u_0	0.079245
+capacity	y_16	u_1	0.266371
+capacity	y_16	u_2	0.0154965
+capacity	y_16	u_3	0.00120439
+capacity	x_16	u_0	0.079245
+capacity	x_16	u_1	0.266371
+capacity	x_16	u_2	0.0154965
+capacity	x_16	u_3	0.00120439
+capacity	y_15	u_0	0.0856186
+capacity	y_15	u_1	0.188213
+capacity	y_15	u_2	0.0239953
+capacity	y_15	u_3	0.111972
+capacity	x_15	u_0	0.0856186
+capacity	x_15	u_1	0.188213
+capacity	x_15	u_2	0.0239953
+capacity	x_15	u_3	0.111972
+capacity	y_14	u_0	0.070392
+capacity	y_14	u_1	0.05248
+capacity	y_14	u_2	0.0743706
+capacity	y_14	u_3	0.0796825
+capacity	x_14	u_0	0.070392
+capacity	x_14	u_1	0.05248
+capacity	x_14	u_2	0.0743706
+capacity	x_14	u_3	0.0796825
+capacity	y_13	u_0	0.337869
+capacity	y_13	u_1	0.271546
+capacity	y_13	u_2	0.279974
+capacity	y_13	u_3	0.0712599
+capacity	x_13	u_0	0.337869
+capacity	x_13	u_1	0.271546
+capacity	x_13	u_2	0.279974
+capacity	x_13	u_3	0.0712599
+capacity	y_12	u_0	0.218259
+capacity	y_12	u_1	0.038411
+capacity	y_12	u_2	0.175237
+capacity	y_12	u_3	0.246736
+capacity	x_12	u_0	0.218259
+capacity	x_12	u_1	0.038411
+capacity	x_12	u_2	0.175237
+capacity	x_12	u_3	0.246736
+capacity	y_11	u_0	0.0539746
+capacity	y_11	u_1	0.15777
+capacity	y_11	u_2	0.0219329
+capacity	y_11	u_3	0.501665
+capacity	y_10	u_0	0.00255375
+capacity	y_10	u_1	0.0109257
+capacity	y_10	u_2	0.0237203
+capacity	y_10	u_3	0.00198559
+capacity	x_11	u_0	0.0539746
+capacity	x_11	u_1	0.15777
+capacity	x_11	u_2	0.0219329
+capacity	x_11	u_3	0.501665
+capacity	y_9	u_0	0.252821
+capacity	y_9	u_1	0.292648
+capacity	y_9	u_2	0.109614
+capacity	y_9	u_3	0.195153
+capacity	x_10	u_0	0.00255375
+capacity	x_10	u_1	0.0109257
+capacity	x_10	u_2	0.0237203
+capacity	x_10	u_3	0.00198559
+capacity	y_8	u_0	0.0213629
+capacity	y_8	u_1	0.157799
+capacity	y_8	u_2	0.151304
+capacity	y_8	u_3	0.0657581
+capacity	x_9	u_0	0.252821
+capacity	x_9	u_1	0.292648
+capacity	x_9	u_2	0.109614
+capacity	x_9	u_3	0.195153
+capacity	y_7	u_0	0.0325396
+capacity	y_7	u_1	0.0054488
+capacity	y_7	u_2	0.0306138
+capacity	y_7	u_3	0.000174642
+capacity	x_8	u_0	0.0213629
+capacity	x_8	u_1	0.157799
+capacity	x_8	u_2	0.151304
+capacity	x_8	u_3	0.0657581
+capacity	y_6	u_0	0.10582
+capacity	y_6	u_1	0.0545277
+capacity	y_6	u_2	0.0372405
+capacity	y_6	u_3	0.238806
+capacity	x_7	u_0	0.0325396
+capacity	x_7	u_1	0.0054488
+capacity	x_7	u_2	0.0306138
+capacity	x_7	u_3	0.000174642
+capacity	y_5	u_0	0.00292914
+capacity	y_5	u_1	0.0328331
+capacity	y_5	u_2	0.0155931
+capacity	y_5	u_3	0.0023008
+capacity	x_6	u_0	0.10582
+capacity	x_6	u_1	0.0545277
+capacity	x_6	u_2	0.0372405
+capacity	x_6	u_3	0.238806
+capacity	y_4	u_0	0.0314815
+capacity	y_4	u_1	0.149956
+capacity	y_4	u_2	0.168246
+capacity	y_4	u_3	0.185806
+capacity	y_3	u_0	0.0726838
+capacity	y_3	u_1	0.065397
+capacity	y_3	u_2	0.00516446
+capacity	y_3	u_3	0.0139065
+capacity	x_5	u_0	0.00292914
+capacity	x_5	u_1	0.0328331
+capacity	x_5	u_2	0.0155931
+capacity	x_5	u_3	0.0023008
+capacity	x_4	u_0	0.0314815
+capacity	x_4	u_1	0.149956
+capacity	x_4	u_2	0.168246
+capacity	x_4	u_3	0.185806
+capacity	y_2	u_0	0.066277
+capacity	y_2	u_1	0.106004
+capacity	y_2	u_2	0.23091
+capacity	y_2	u_3	0.28669
+capacity	y_0	u_0	0.812727
+capacity	y_0	u_1	0.0477701
+capacity	y_0	u_2	0.0623717
+capacity	y_0	u_3	0.0639165
+capacity	x_2	u_0	0.066277
+capacity	x_2	u_1	0.106004
+capacity	x_2	u_2	0.23091
+capacity	x_2	u_3	0.28669
+capacity	x_3	u_0	0.0726838
+capacity	x_3	u_1	0.065397
+capacity	x_3	u_2	0.00516446
+capacity	x_3	u_3	0.0139065
+capacity	y_1	u_0	0.114824
+capacity	y_1	u_1	0.0432248
+capacity	y_1	u_2	0.54632
+capacity	y_1	u_3	0.279149
+capacity	x_1	u_0	0.114824
+capacity	x_1	u_1	0.0432248
+capacity	x_1	u_2	0.54632
+capacity	x_1	u_3	0.279149
+capacity	y_22	u_0	0.0305916
+capacity	y_22	u_1	0.145421
+capacity	y_22	u_2	0.195571
+capacity	y_22	u_3	0.140541
+capacity	x_0	u_0	0.812727
+capacity	x_0	u_1	0.0477701
+capacity	x_0	u_2	0.0623717
+capacity	x_0	u_3	0.0639165

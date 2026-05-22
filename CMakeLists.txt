@@ -15,3 +15,4 @@ FetchContent_MakeAvailable(idol)
 
 add_subdirectory(robust/generate/uflp_Cheng_et_al_2021)
 add_subdirectory(robust/generate/cflp_Cheng_et_al_2021)
+add_subdirectory(robust/generate/cbp_Subramanyam_et_al_2020)

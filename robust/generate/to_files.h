@@ -36,6 +36,17 @@ build_budgeted_uncertainty_set(idol::Env& t_env, const idol::Dim<Size>& t_dims, 
     return std::move(model);
 }
 
+template<unsigned int Size>
+inline idol::Model
+build_box_uncertainty_set(idol::Env& t_env, const idol::Dim<Size>& t_dims, double t_lb, double t_ub, idol::VarType t_type) {
+
+    idol::Model model(t_env);
+
+    const auto& u = model.add_vars(t_dims, t_lb, t_ub, t_type, 0, "u");
+
+    return std::move(model);
+}
+
 template<unsigned int DIM>
 inline void
 generate_budgeted_uncertainty_set_files(const idol::Dim<DIM>& t_dims, const std::list<double>& t_budgets, idol::VarType t_type, const std::filesystem::path& t_folder) {
@@ -50,7 +61,26 @@ generate_budgeted_uncertainty_set_files(const idol::Dim<DIM>& t_dims, const std:
 
         idol::write_to_file(
             build_budgeted_uncertainty_set(env, t_dims, budget, t_type),
-            t_folder.string() + "/gamma-" + pretty_budget
+            t_folder.string() + "/budgeted-" + pretty_budget
+        );
+    }
+}
+
+template<unsigned int DIM>
+inline void
+generate_box_uncertainty_set_files(const idol::Dim<DIM>& t_dims, const std::list<std::pair<double, double>>& t_bounds, idol::VarType t_type, const std::filesystem::path& t_folder) {
+    idol::Env env;
+    std::filesystem::create_directories(t_folder.string());
+    for (const auto& [lb, ub] : t_bounds) {
+
+        std::ostringstream ss;
+        ss << std::fixed << std::setprecision(2) << lb << "__" <<ub;
+        std::string pretty_bounds = ss.str();
+        std::replace(pretty_bounds.begin(), pretty_bounds.end(), '.', '_');
+
+        idol::write_to_file(
+            build_box_uncertainty_set(env, t_dims, lb, ub, t_type),
+            t_folder.string() + "/box-" + pretty_bounds
         );
     }
 }

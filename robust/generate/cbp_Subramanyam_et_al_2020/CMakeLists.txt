@@ -1,0 +1,2 @@
+add_executable(cbp_Subramanyam_et_al_2020 main.cpp)
+target_link_libraries(cbp_Subramanyam_et_al_2020 PUBLIC idol)
