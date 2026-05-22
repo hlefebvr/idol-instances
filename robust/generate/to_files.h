@@ -42,7 +42,16 @@ generate_budgeted_uncertainty_set_files(const idol::Dim<DIM>& t_dims, const std:
     idol::Env env;
     std::filesystem::create_directories(t_folder.string() + "/uncertainty_sets/");
     for (const auto& budget : t_budgets) {
-        idol::write_to_file(build_budgeted_uncertainty_set(env, t_dims, budget, t_type), t_folder.string() + "/uncertainty_sets/gamma-" + std::to_string(budget) + ".mps");
+
+        std::ostringstream ss;
+        ss << std::fixed << std::setprecision(2) << budget;
+        std::string pretty_budget = ss.str();
+        std::replace(pretty_budget.begin(), pretty_budget.end(), '.', '_');
+
+        idol::write_to_file(
+            build_budgeted_uncertainty_set(env, t_dims, budget, t_type),
+            t_folder.string() + "/uncertainty_sets/gamma-" + pretty_budget
+        );
     }
 }
 
