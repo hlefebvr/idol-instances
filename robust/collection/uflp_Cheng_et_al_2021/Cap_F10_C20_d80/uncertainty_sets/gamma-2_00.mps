@@ -3,6 +3,7 @@ ROWS
  N  OBJ
  L  budget
 COLUMNS
+    __constant OBJ        1
     MARKER    'MARKER'                 'INTORG'
     u_0        OBJ        0
     u_0        budget     1
@@ -28,6 +29,7 @@ COLUMNS
 RHS
     RHS       budget     2
 BOUNDS
+ FX BND       __constant 0
  LI BND       u_0        0
  UI BND       u_0        1
  LI BND       u_1        0

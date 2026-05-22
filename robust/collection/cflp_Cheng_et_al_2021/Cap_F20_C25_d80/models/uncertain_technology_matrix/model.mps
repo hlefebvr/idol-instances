@@ -47,7 +47,6 @@ ROWS
  L  capacity_18
  L  capacity_19
 COLUMNS
-    __constant OBJ        1
     y_0_0      OBJ        0
     y_0_0      capacity_0 297
     y_0_0      demand_0   1
@@ -1687,7 +1686,6 @@ RHS
     RHS       capacity_18 -0
     RHS       capacity_19 -0
 BOUNDS
- FX BND       __constant 0
  LI BND       x_0        0
  UI BND       x_0        1
  LI BND       x_1        0

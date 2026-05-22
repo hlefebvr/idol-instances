@@ -1041,7 +1041,6 @@ ROWS
  L  disruption_9_47
  L  disruption_9_48
 COLUMNS
-    __constant OBJ        1
     y_0_0      OBJ        0
     y_0_0      disruption_0_0 1
     y_0_0      activation_0_0 1
@@ -5133,7 +5132,6 @@ RHS
     RHS       disruption_9_47 1
     RHS       disruption_9_48 1
 BOUNDS
- FX BND       __constant 0
  LI BND       x_0        0
  UI BND       x_0        1
  LI BND       x_1        0
