@@ -1,45 +1,43 @@
 NAME /Users/henri/Research/solvers/instances/idol-instances/robust/collection/uflp_Cheng_et_al_2021/Cap_F15_C45_d100/uncertainty_sets/gamma-8_00
 ROWS
  N  OBJ
- L  c_79
+ L  budget
 COLUMNS
-    __constant OBJ        1
     MARKER    'MARKER'                 'INTORG'
     u_0        OBJ        0
-    u_0        c_79       1
+    u_0        budget     1
     u_1        OBJ        0
-    u_1        c_79       1
+    u_1        budget     1
     u_2        OBJ        0
-    u_2        c_79       1
+    u_2        budget     1
     u_3        OBJ        0
-    u_3        c_79       1
+    u_3        budget     1
     u_4        OBJ        0
-    u_4        c_79       1
+    u_4        budget     1
     u_5        OBJ        0
-    u_5        c_79       1
+    u_5        budget     1
     u_6        OBJ        0
-    u_6        c_79       1
+    u_6        budget     1
     u_7        OBJ        0
-    u_7        c_79       1
+    u_7        budget     1
     u_8        OBJ        0
-    u_8        c_79       1
+    u_8        budget     1
     u_9        OBJ        0
-    u_9        c_79       1
+    u_9        budget     1
     u_10       OBJ        0
-    u_10       c_79       1
+    u_10       budget     1
     u_11       OBJ        0
-    u_11       c_79       1
+    u_11       budget     1
     u_12       OBJ        0
-    u_12       c_79       1
+    u_12       budget     1
     u_13       OBJ        0
-    u_13       c_79       1
+    u_13       budget     1
     u_14       OBJ        0
-    u_14       c_79       1
+    u_14       budget     1
     MARKER    'MARKER'                 'INTEND'
 RHS
-    RHS       c_79       8
+    RHS       budget     8
 BOUNDS
- FX BND       __constant 0
  LI BND       u_0        0
  UI BND       u_0        1
  LI BND       u_1        0

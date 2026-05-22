@@ -497,7 +497,6 @@ ROWS
  L  activation_9_43
  L  activation_9_44
 COLUMNS
-    __constant OBJ        1
     y_0_0      OBJ        0
     y_0_0      activation_0_0 1
     y_0_0      demand_0   1
@@ -2897,7 +2896,6 @@ RHS
     RHS       activation_9_43 -0
     RHS       activation_9_44 -0
 BOUNDS
- FX BND       __constant 0
  LI BND       x_0        0
  UI BND       x_0        1
  LI BND       x_1        0

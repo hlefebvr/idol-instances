@@ -1,53 +1,53 @@
 NAME /Users/henri/Research/solvers/instances/idol-instances/robust/collection/cflp_Cheng_et_al_2021/Cap_F20_C25_d100/uncertainty_sets/gamma-2_00
 ROWS
  N  OBJ
- L  c_41
+ L  budget
 COLUMNS
     __constant OBJ        1
     MARKER    'MARKER'                 'INTORG'
     u_0        OBJ        0
-    u_0        c_41       1
+    u_0        budget     1
     u_1        OBJ        0
-    u_1        c_41       1
+    u_1        budget     1
     u_2        OBJ        0
-    u_2        c_41       1
+    u_2        budget     1
     u_3        OBJ        0
-    u_3        c_41       1
+    u_3        budget     1
     u_4        OBJ        0
-    u_4        c_41       1
+    u_4        budget     1
     u_5        OBJ        0
-    u_5        c_41       1
+    u_5        budget     1
     u_6        OBJ        0
-    u_6        c_41       1
+    u_6        budget     1
     u_7        OBJ        0
-    u_7        c_41       1
+    u_7        budget     1
     u_8        OBJ        0
-    u_8        c_41       1
+    u_8        budget     1
     u_9        OBJ        0
-    u_9        c_41       1
+    u_9        budget     1
     u_10       OBJ        0
-    u_10       c_41       1
+    u_10       budget     1
     u_11       OBJ        0
-    u_11       c_41       1
+    u_11       budget     1
     u_12       OBJ        0
-    u_12       c_41       1
+    u_12       budget     1
     u_13       OBJ        0
-    u_13       c_41       1
+    u_13       budget     1
     u_14       OBJ        0
-    u_14       c_41       1
+    u_14       budget     1
     u_15       OBJ        0
-    u_15       c_41       1
+    u_15       budget     1
     u_16       OBJ        0
-    u_16       c_41       1
+    u_16       budget     1
     u_17       OBJ        0
-    u_17       c_41       1
+    u_17       budget     1
     u_18       OBJ        0
-    u_18       c_41       1
+    u_18       budget     1
     u_19       OBJ        0
-    u_19       c_41       1
+    u_19       budget     1
     MARKER    'MARKER'                 'INTEND'
 RHS
-    RHS       c_41       2
+    RHS       budget     2
 BOUNDS
  FX BND       __constant 0
  LI BND       u_0        0

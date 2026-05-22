@@ -31,7 +31,7 @@ build_budgeted_uncertainty_set(idol::Env& t_env, const idol::Dim<Size>& t_dims, 
 
     const auto& u = model.add_vars(t_dims, 0, 1, t_type, 0, "u");
     const auto& all_us = idol::flatten<idol::Var, Size>(u);
-    model.add_ctr(idol_Sum(u_i, all_us, u_i) <= t_budget);
+    model.add_ctr(idol_Sum(u_i, all_us, u_i) <= t_budget, "budget");
 
     return std::move(model);
 }

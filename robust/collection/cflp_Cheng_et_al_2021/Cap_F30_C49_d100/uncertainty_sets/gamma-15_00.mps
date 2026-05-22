@@ -1,73 +1,73 @@
 NAME /Users/henri/Research/solvers/instances/idol-instances/robust/collection/cflp_Cheng_et_al_2021/Cap_F30_C49_d100/uncertainty_sets/gamma-15_00
 ROWS
  N  OBJ
- L  c_154
+ L  budget
 COLUMNS
     __constant OBJ        1
     MARKER    'MARKER'                 'INTORG'
     u_0        OBJ        0
-    u_0        c_154      1
+    u_0        budget     1
     u_1        OBJ        0
-    u_1        c_154      1
+    u_1        budget     1
     u_2        OBJ        0
-    u_2        c_154      1
+    u_2        budget     1
     u_3        OBJ        0
-    u_3        c_154      1
+    u_3        budget     1
     u_4        OBJ        0
-    u_4        c_154      1
+    u_4        budget     1
     u_5        OBJ        0
-    u_5        c_154      1
+    u_5        budget     1
     u_6        OBJ        0
-    u_6        c_154      1
+    u_6        budget     1
     u_7        OBJ        0
-    u_7        c_154      1
+    u_7        budget     1
     u_8        OBJ        0
-    u_8        c_154      1
+    u_8        budget     1
     u_9        OBJ        0
-    u_9        c_154      1
+    u_9        budget     1
     u_10       OBJ        0
-    u_10       c_154      1
+    u_10       budget     1
     u_11       OBJ        0
-    u_11       c_154      1
+    u_11       budget     1
     u_12       OBJ        0
-    u_12       c_154      1
+    u_12       budget     1
     u_13       OBJ        0
-    u_13       c_154      1
+    u_13       budget     1
     u_14       OBJ        0
-    u_14       c_154      1
+    u_14       budget     1
     u_15       OBJ        0
-    u_15       c_154      1
+    u_15       budget     1
     u_16       OBJ        0
-    u_16       c_154      1
+    u_16       budget     1
     u_17       OBJ        0
-    u_17       c_154      1
+    u_17       budget     1
     u_18       OBJ        0
-    u_18       c_154      1
+    u_18       budget     1
     u_19       OBJ        0
-    u_19       c_154      1
+    u_19       budget     1
     u_20       OBJ        0
-    u_20       c_154      1
+    u_20       budget     1
     u_21       OBJ        0
-    u_21       c_154      1
+    u_21       budget     1
     u_22       OBJ        0
-    u_22       c_154      1
+    u_22       budget     1
     u_23       OBJ        0
-    u_23       c_154      1
+    u_23       budget     1
     u_24       OBJ        0
-    u_24       c_154      1
+    u_24       budget     1
     u_25       OBJ        0
-    u_25       c_154      1
+    u_25       budget     1
     u_26       OBJ        0
-    u_26       c_154      1
+    u_26       budget     1
     u_27       OBJ        0
-    u_27       c_154      1
+    u_27       budget     1
     u_28       OBJ        0
-    u_28       c_154      1
+    u_28       budget     1
     u_29       OBJ        0
-    u_29       c_154      1
+    u_29       budget     1
     MARKER    'MARKER'                 'INTEND'
 RHS
-    RHS       c_154      15
+    RHS       budget     15
 BOUNDS
  FX BND       __constant 0
  LI BND       u_0        0
