@@ -1,0 +1,2 @@
+add_executable(kp_Arslan_et_al_2021 main.cpp)
+target_link_libraries(kp_Arslan_et_al_2021 PUBLIC idol)
