@@ -4,12 +4,8 @@
 #include <iostream>
 #include <filesystem>
 
-#include "idol/modeling.h"
-#include "idol/bilevel/modeling/Description.h"
-#include "idol/bilevel/modeling/write_to_file.h"
-#include "idol/robust/modeling/Description.h"
+#include "../../to_files.h"
 #include "idol/mixed-integer/problems/facility-location-problem/FLP_Instance.h"
-#include "idol/robust/modeling/read_from_file.h"
 
 using namespace idol;
 
@@ -119,7 +115,7 @@ build_uncertain_technology_matrix_model(Env& t_env, const Problems::FLP::Instanc
                 y[i][j] <= x[i],
                 "activation_" + std::to_string(i) + "_" + std::to_string(j)
             );
-            robust_description.set_uncertain_mat_coeff(c, x[i], -u[i]);
+            robust_description.set_uncertain_mat_coeff(c, x[i], u[i]);
         }
     }
 
@@ -151,28 +147,6 @@ build_uncertain_technology_matrix_model(Env& t_env, const Problems::FLP::Instanc
     };
 }
 
-void to_files(const std::tuple<Model, Robust::Description, Bilevel::Description>& t_model, const std::filesystem::path& t_folder) {
-    std::filesystem::create_directories(t_folder);
-    const auto& [model, robust_description, bilevel_description] = t_model;
-    idol::Robust::write_to_file(model, robust_description, bilevel_description, t_folder);
-    std::filesystem::remove(t_folder.string() + "-unc.mps");
-    std::filesystem::rename(t_folder.string() + ".mps", t_folder.string() + "model.mps");
-    std::filesystem::rename(t_folder.string() + ".aux", t_folder.string() + "stages.aux");
-    std::filesystem::rename(t_folder.string() + ".par", t_folder.string() + "uncertainty.par");
-}
-
-Model build_budgeted_uncertainty_set(Env& t_env, const Problems::FLP::Instance& t_instance, double t_budget) {
-
-    Model model(t_env);
-
-    const auto n_facilities = t_instance.n_facilities();
-
-    const auto& u = model.add_vars(Dim<1>(n_facilities), 0, 1, Binary, 0, "u");
-    model.add_ctr(idol_Sum(i, Range(n_facilities), u[i]) <= t_budget);
-
-    return std::move(model);
-}
-
 int main(int t_argc, const char** t_argv) {
 
     if (t_argc != 3) {
@@ -194,10 +168,11 @@ int main(int t_argc, const char** t_argv) {
             to_files(build_uncertain_technology_matrix_model(env, instance), instance_folder + "/models/uncertain_technology_matrix/");
 
             // Create uncertainty sets
-            std::filesystem::create_directories(instance_folder + "/uncertainty_sets");
-            for (const auto& budget : { 1, 2, 3, 4, (int) std::round(instance.n_facilities() * .5), (int) std::round(std::sqrt(instance.n_facilities())) }) {
-                write_to_file(build_budgeted_uncertainty_set(env, instance, budget), instance_folder + "/uncertainty_sets/gamma-" + std::to_string(budget) + ".mps");
-            }
+            generate_budgeted_uncertainty_set_files(
+                Dim<1>(instance.n_facilities()),
+                { 1., 2., 3., 4., std::round(instance.n_facilities() * .5), std::round(std::sqrt(instance.n_facilities())) },
+                Binary,
+                instance_folder + "/uncertainty_sets");
         }
     }
 
