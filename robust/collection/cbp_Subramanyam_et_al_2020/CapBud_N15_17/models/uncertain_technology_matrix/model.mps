@@ -19,94 +19,94 @@ ROWS
  L  c_1999
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    x_0        OBJ        8.82645
+    x_0        OBJ        -8.82645
     x_0        c_1985     1
     x_0        capacity   1.76529
-    x_1        OBJ        2.72493
+    x_1        OBJ        -2.72493
     x_1        c_1986     1
     x_1        capacity   0.544986
-    x_2        OBJ        0.893204
+    x_2        OBJ        -0.893204
     x_2        c_1987     1
     x_2        capacity   0.178641
-    x_3        OBJ        8.09579
+    x_3        OBJ        -8.09579
     x_3        c_1988     1
     x_3        capacity   1.61916
-    x_4        OBJ        3.59298
+    x_4        OBJ        -3.59298
     x_4        c_1989     1
     x_4        capacity   0.718595
-    x_5        OBJ        7.43612
+    x_5        OBJ        -7.43612
     x_5        c_1990     1
     x_5        capacity   1.48722
-    x_6        OBJ        1.92384
+    x_6        OBJ        -1.92384
     x_6        c_1991     1
     x_6        capacity   0.384769
-    x_7        OBJ        2.32864
+    x_7        OBJ        -2.32864
     x_7        c_1992     1
     x_7        capacity   0.465728
-    x_8        OBJ        3.54066
+    x_8        OBJ        -3.54066
     x_8        c_1993     1
     x_8        capacity   0.708132
-    x_9        OBJ        7.84657
+    x_9        OBJ        -7.84657
     x_9        c_1994     1
     x_9        capacity   1.56931
-    x_10       OBJ        9.38356
+    x_10       OBJ        -9.38356
     x_10       c_1995     1
     x_10       capacity   1.87671
-    x_11       OBJ        7.8721
+    x_11       OBJ        -7.8721
     x_11       c_1996     1
     x_11       capacity   1.57442
-    x_12       OBJ        0.077661
+    x_12       OBJ        -0.077661
     x_12       c_1997     1
     x_12       capacity   0.0155322
-    x_13       OBJ        8.08457
+    x_13       OBJ        -8.08457
     x_13       c_1998     1
     x_13       capacity   1.61691
-    x_14       OBJ        6.36428
+    x_14       OBJ        -6.36428
     x_14       c_1999     1
     x_14       capacity   1.27286
-    y_0        OBJ        7.06116
+    y_0        OBJ        -7.06116
     y_0        c_1985     1
     y_0        capacity   1.76529
-    y_1        OBJ        2.17994
+    y_1        OBJ        -2.17994
     y_1        c_1986     1
     y_1        capacity   0.544986
-    y_2        OBJ        0.714563
+    y_2        OBJ        -0.714563
     y_2        c_1987     1
     y_2        capacity   0.178641
-    y_3        OBJ        6.47663
+    y_3        OBJ        -6.47663
     y_3        c_1988     1
     y_3        capacity   1.61916
-    y_4        OBJ        2.87438
+    y_4        OBJ        -2.87438
     y_4        c_1989     1
     y_4        capacity   0.718595
-    y_5        OBJ        5.9489
+    y_5        OBJ        -5.9489
     y_5        c_1990     1
     y_5        capacity   1.48722
-    y_6        OBJ        1.53908
+    y_6        OBJ        -1.53908
     y_6        c_1991     1
     y_6        capacity   0.384769
-    y_7        OBJ        1.86291
+    y_7        OBJ        -1.86291
     y_7        c_1992     1
     y_7        capacity   0.465728
-    y_8        OBJ        2.83253
+    y_8        OBJ        -2.83253
     y_8        c_1993     1
     y_8        capacity   0.708132
-    y_9        OBJ        6.27725
+    y_9        OBJ        -6.27725
     y_9        c_1994     1
     y_9        capacity   1.56931
-    y_10       OBJ        7.50685
+    y_10       OBJ        -7.50685
     y_10       c_1995     1
     y_10       capacity   1.87671
-    y_11       OBJ        6.29768
+    y_11       OBJ        -6.29768
     y_11       c_1996     1
     y_11       capacity   1.57442
-    y_12       OBJ        0.0621288
+    y_12       OBJ        -0.0621288
     y_12       c_1997     1
     y_12       capacity   0.0155322
-    y_13       OBJ        6.46765
+    y_13       OBJ        -6.46765
     y_13       c_1998     1
     y_13       capacity   1.61691
-    y_14       OBJ        5.09143
+    y_14       OBJ        -5.09143
     y_14       c_1999     1
     y_14       capacity   1.27286
     MARKER    'MARKER'                 'INTEND'

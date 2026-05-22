@@ -14,64 +14,64 @@ ROWS
  L  c_1099
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    x_0        OBJ        3.86401
+    x_0        OBJ        -3.86401
     x_0        c_1090     1
     x_0        capacity   0.772802
-    x_1        OBJ        2.8941
+    x_1        OBJ        -2.8941
     x_1        c_1091     1
     x_1        capacity   0.578821
-    x_2        OBJ        1.49236
+    x_2        OBJ        -1.49236
     x_2        c_1092     1
     x_2        capacity   0.298472
-    x_3        OBJ        1.49414
+    x_3        OBJ        -1.49414
     x_3        c_1093     1
     x_3        capacity   0.298828
-    x_4        OBJ        4.42864
+    x_4        OBJ        -4.42864
     x_4        c_1094     1
     x_4        capacity   0.885729
-    x_5        OBJ        4.42436
+    x_5        OBJ        -4.42436
     x_5        c_1095     1
     x_5        capacity   0.884871
-    x_6        OBJ        9.10712
+    x_6        OBJ        -9.10712
     x_6        c_1096     1
     x_6        capacity   1.82142
-    x_7        OBJ        9.4109
+    x_7        OBJ        -9.4109
     x_7        c_1097     1
     x_7        capacity   1.88218
-    x_8        OBJ        0.190766
+    x_8        OBJ        -0.190766
     x_8        c_1098     1
     x_8        capacity   0.0381532
-    x_9        OBJ        2.59135
+    x_9        OBJ        -2.59135
     x_9        c_1099     1
     x_9        capacity   0.518269
-    y_0        OBJ        3.09121
+    y_0        OBJ        -3.09121
     y_0        c_1090     1
     y_0        capacity   0.772802
-    y_1        OBJ        2.31528
+    y_1        OBJ        -2.31528
     y_1        c_1091     1
     y_1        capacity   0.578821
-    y_2        OBJ        1.19389
+    y_2        OBJ        -1.19389
     y_2        c_1092     1
     y_2        capacity   0.298472
-    y_3        OBJ        1.19531
+    y_3        OBJ        -1.19531
     y_3        c_1093     1
     y_3        capacity   0.298828
-    y_4        OBJ        3.54291
+    y_4        OBJ        -3.54291
     y_4        c_1094     1
     y_4        capacity   0.885729
-    y_5        OBJ        3.53948
+    y_5        OBJ        -3.53948
     y_5        c_1095     1
     y_5        capacity   0.884871
-    y_6        OBJ        7.28569
+    y_6        OBJ        -7.28569
     y_6        c_1096     1
     y_6        capacity   1.82142
-    y_7        OBJ        7.52872
+    y_7        OBJ        -7.52872
     y_7        c_1097     1
     y_7        capacity   1.88218
-    y_8        OBJ        0.152613
+    y_8        OBJ        -0.152613
     y_8        c_1098     1
     y_8        capacity   0.0381532
-    y_9        OBJ        2.07308
+    y_9        OBJ        -2.07308
     y_9        c_1099     1
     y_9        capacity   0.518269
     MARKER    'MARKER'                 'INTEND'

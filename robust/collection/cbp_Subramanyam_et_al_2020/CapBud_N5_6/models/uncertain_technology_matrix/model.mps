@@ -9,34 +9,34 @@ ROWS
  L  c_139
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    x_0        OBJ        7.87542
+    x_0        OBJ        -7.87542
     x_0        c_135      1
     x_0        capacity   1.57508
-    x_1        OBJ        6.06475
+    x_1        OBJ        -6.06475
     x_1        c_136      1
     x_1        capacity   1.21295
-    x_2        OBJ        2.18403
+    x_2        OBJ        -2.18403
     x_2        c_137      1
     x_2        capacity   0.436806
-    x_3        OBJ        4.55169
+    x_3        OBJ        -4.55169
     x_3        c_138      1
     x_3        capacity   0.910338
-    x_4        OBJ        8.7887
+    x_4        OBJ        -8.7887
     x_4        c_139      1
     x_4        capacity   1.75774
-    y_0        OBJ        6.30034
+    y_0        OBJ        -6.30034
     y_0        c_135      1
     y_0        capacity   1.57508
-    y_1        OBJ        4.8518
+    y_1        OBJ        -4.8518
     y_1        c_136      1
     y_1        capacity   1.21295
-    y_2        OBJ        1.74722
+    y_2        OBJ        -1.74722
     y_2        c_137      1
     y_2        capacity   0.436806
-    y_3        OBJ        3.64135
+    y_3        OBJ        -3.64135
     y_3        c_138      1
     y_3        capacity   0.910338
-    y_4        OBJ        7.03096
+    y_4        OBJ        -7.03096
     y_4        c_139      1
     y_4        capacity   1.75774
     MARKER    'MARKER'                 'INTEND'

@@ -24,124 +24,124 @@ ROWS
  L  c_2229
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    x_0        OBJ        8.96921
+    x_0        OBJ        -8.96921
     x_0        c_2210     1
     x_0        capacity   1.79384
-    x_1        OBJ        3.30878
+    x_1        OBJ        -3.30878
     x_1        c_2211     1
     x_1        capacity   0.661755
-    x_2        OBJ        3.97418
+    x_2        OBJ        -3.97418
     x_2        c_2212     1
     x_2        capacity   0.794836
-    x_3        OBJ        2.65082
+    x_3        OBJ        -2.65082
     x_3        c_2213     1
     x_3        capacity   0.530165
-    x_4        OBJ        0.449388
+    x_4        OBJ        -0.449388
     x_4        c_2214     1
     x_4        capacity   0.0898776
-    x_5        OBJ        0.162337
+    x_5        OBJ        -0.162337
     x_5        c_2215     1
     x_5        capacity   0.0324673
-    x_6        OBJ        2.72438
+    x_6        OBJ        -2.72438
     x_6        c_2216     1
     x_6        capacity   0.544876
-    x_7        OBJ        9.41174
+    x_7        OBJ        -9.41174
     x_7        c_2217     1
     x_7        capacity   1.88235
-    x_8        OBJ        3.24238
+    x_8        OBJ        -3.24238
     x_8        c_2218     1
     x_8        capacity   0.648476
-    x_9        OBJ        8.88572
+    x_9        OBJ        -8.88572
     x_9        c_2219     1
     x_9        capacity   1.77714
-    x_10       OBJ        1.18123
+    x_10       OBJ        -1.18123
     x_10       c_2220     1
     x_10       capacity   0.236245
-    x_11       OBJ        6.74669
+    x_11       OBJ        -6.74669
     x_11       c_2221     1
     x_11       capacity   1.34934
-    x_12       OBJ        3.28577
+    x_12       OBJ        -3.28577
     x_12       c_2222     1
     x_12       capacity   0.657154
-    x_13       OBJ        8.92485
+    x_13       OBJ        -8.92485
     x_13       c_2223     1
     x_13       capacity   1.78497
-    x_14       OBJ        6.97735
+    x_14       OBJ        -6.97735
     x_14       c_2224     1
     x_14       capacity   1.39547
-    x_15       OBJ        3.42129
+    x_15       OBJ        -3.42129
     x_15       c_2225     1
     x_15       capacity   0.684259
-    x_16       OBJ        4.87534
+    x_16       OBJ        -4.87534
     x_16       c_2226     1
     x_16       capacity   0.975067
-    x_17       OBJ        2.34641
+    x_17       OBJ        -2.34641
     x_17       c_2227     1
     x_17       capacity   0.469282
-    x_18       OBJ        0.301104
+    x_18       OBJ        -0.301104
     x_18       c_2228     1
     x_18       capacity   0.0602209
-    x_19       OBJ        0.647331
+    x_19       OBJ        -0.647331
     x_19       c_2229     1
     x_19       capacity   0.129466
-    y_0        OBJ        7.17537
+    y_0        OBJ        -7.17537
     y_0        c_2210     1
     y_0        capacity   1.79384
-    y_1        OBJ        2.64702
+    y_1        OBJ        -2.64702
     y_1        c_2211     1
     y_1        capacity   0.661755
-    y_2        OBJ        3.17934
+    y_2        OBJ        -3.17934
     y_2        c_2212     1
     y_2        capacity   0.794836
-    y_3        OBJ        2.12066
+    y_3        OBJ        -2.12066
     y_3        c_2213     1
     y_3        capacity   0.530165
-    y_4        OBJ        0.35951
+    y_4        OBJ        -0.35951
     y_4        c_2214     1
     y_4        capacity   0.0898776
-    y_5        OBJ        0.129869
+    y_5        OBJ        -0.129869
     y_5        c_2215     1
     y_5        capacity   0.0324673
-    y_6        OBJ        2.1795
+    y_6        OBJ        -2.1795
     y_6        c_2216     1
     y_6        capacity   0.544876
-    y_7        OBJ        7.52939
+    y_7        OBJ        -7.52939
     y_7        c_2217     1
     y_7        capacity   1.88235
-    y_8        OBJ        2.5939
+    y_8        OBJ        -2.5939
     y_8        c_2218     1
     y_8        capacity   0.648476
-    y_9        OBJ        7.10858
+    y_9        OBJ        -7.10858
     y_9        c_2219     1
     y_9        capacity   1.77714
-    y_10       OBJ        0.944981
+    y_10       OBJ        -0.944981
     y_10       c_2220     1
     y_10       capacity   0.236245
-    y_11       OBJ        5.39736
+    y_11       OBJ        -5.39736
     y_11       c_2221     1
     y_11       capacity   1.34934
-    y_12       OBJ        2.62862
+    y_12       OBJ        -2.62862
     y_12       c_2222     1
     y_12       capacity   0.657154
-    y_13       OBJ        7.13988
+    y_13       OBJ        -7.13988
     y_13       c_2223     1
     y_13       capacity   1.78497
-    y_14       OBJ        5.58188
+    y_14       OBJ        -5.58188
     y_14       c_2224     1
     y_14       capacity   1.39547
-    y_15       OBJ        2.73704
+    y_15       OBJ        -2.73704
     y_15       c_2225     1
     y_15       capacity   0.684259
-    y_16       OBJ        3.90027
+    y_16       OBJ        -3.90027
     y_16       c_2226     1
     y_16       capacity   0.975067
-    y_17       OBJ        1.87713
+    y_17       OBJ        -1.87713
     y_17       c_2227     1
     y_17       capacity   0.469282
-    y_18       OBJ        0.240883
+    y_18       OBJ        -0.240883
     y_18       c_2228     1
     y_18       capacity   0.0602209
-    y_19       OBJ        0.517865
+    y_19       OBJ        -0.517865
     y_19       c_2229     1
     y_19       capacity   0.129466
     MARKER    'MARKER'                 'INTEND'

@@ -96,14 +96,14 @@ build_uncertain_technology_matrix_model(Env& t_env, const unsigned int t_n, std:
         model.add_ctr(x[i] + y[i] <= 1);
     }
 
-    // Objective function
+    // Objective function (remember it is a maximization problem!)
     model.set_obj_expr(
-        idol_Sum(i, Range(t_n),  instance.c0[i] * (x[i] + instance.kappa * y[i]))
+        -1. * idol_Sum(i, Range(t_n),  instance.c0[i] * (x[i] + instance.kappa * y[i]))
     );
     for (auto i : Range(t_n)) {
         const auto uncertain_coefficient = instance.c0[i] * idol_Sum(j, Range(4), instance.Phi[i][j] * u[j]) * .5;
-        robust_description.set_uncertain_obj(x[i], uncertain_coefficient);
-        robust_description.set_uncertain_obj(y[i], instance.kappa * uncertain_coefficient);
+        robust_description.set_uncertain_obj(x[i], -uncertain_coefficient);
+        robust_description.set_uncertain_obj(y[i], -instance.kappa * uncertain_coefficient);
     }
 
     // Variables y are second-stage variables
