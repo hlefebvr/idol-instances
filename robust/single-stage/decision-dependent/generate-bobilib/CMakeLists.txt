@@ -1,2 +1,0 @@
-add_executable(robust_single_stage_decision_dependent_bobilib main.cpp)
-target_link_libraries(robust_single_stage_decision_dependent_bobilib PUBLIC idol)

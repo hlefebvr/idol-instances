@@ -13,5 +13,5 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(idol)
 
-add_subdirectory(robust/single-stage/decision-dependent/generate-bobilib)
+add_subdirectory(robust/uflp_Cheng_et_al_2021/generate)
 
