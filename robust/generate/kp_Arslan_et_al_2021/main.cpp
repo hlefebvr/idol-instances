@@ -64,8 +64,8 @@ build_uncertain_obj_model(Env& t_env, const Instance& t_instance) {
         "capacity"
     );
     for (auto i : Range(t_instance.n_items)) {
-        model.add_ctr(y[i] <= x[i], "wo_repair");
-        model.add_ctr(r[i] <= y[i], "w_repair");
+        model.add_ctr(y[i] <= x[i], "wo_repair_" + std::to_string(i));
+        model.add_ctr(r[i] <= y[i], "w_repair_" + std::to_string(i));
     }
 
     // Objective function

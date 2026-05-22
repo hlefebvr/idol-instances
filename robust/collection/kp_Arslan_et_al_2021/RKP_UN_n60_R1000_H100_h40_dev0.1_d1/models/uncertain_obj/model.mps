@@ -2,791 +2,791 @@ NAME /Users/henri/Research/solvers/instances/idol-instances/robust/collection/kp
 ROWS
  N  OBJ
  L  capacity
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
- L  wo_repair
- L  w_repair
+ L  wo_repair_0
+ L  w_repair_0
+ L  wo_repair_1
+ L  w_repair_1
+ L  wo_repair_2
+ L  w_repair_2
+ L  wo_repair_3
+ L  w_repair_3
+ L  wo_repair_4
+ L  w_repair_4
+ L  wo_repair_5
+ L  w_repair_5
+ L  wo_repair_6
+ L  w_repair_6
+ L  wo_repair_7
+ L  w_repair_7
+ L  wo_repair_8
+ L  w_repair_8
+ L  wo_repair_9
+ L  w_repair_9
+ L  wo_repair_10
+ L  w_repair_10
+ L  wo_repair_11
+ L  w_repair_11
+ L  wo_repair_12
+ L  w_repair_12
+ L  wo_repair_13
+ L  w_repair_13
+ L  wo_repair_14
+ L  w_repair_14
+ L  wo_repair_15
+ L  w_repair_15
+ L  wo_repair_16
+ L  w_repair_16
+ L  wo_repair_17
+ L  w_repair_17
+ L  wo_repair_18
+ L  w_repair_18
+ L  wo_repair_19
+ L  w_repair_19
+ L  wo_repair_20
+ L  w_repair_20
+ L  wo_repair_21
+ L  w_repair_21
+ L  wo_repair_22
+ L  w_repair_22
+ L  wo_repair_23
+ L  w_repair_23
+ L  wo_repair_24
+ L  w_repair_24
+ L  wo_repair_25
+ L  w_repair_25
+ L  wo_repair_26
+ L  w_repair_26
+ L  wo_repair_27
+ L  w_repair_27
+ L  wo_repair_28
+ L  w_repair_28
+ L  wo_repair_29
+ L  w_repair_29
+ L  wo_repair_30
+ L  w_repair_30
+ L  wo_repair_31
+ L  w_repair_31
+ L  wo_repair_32
+ L  w_repair_32
+ L  wo_repair_33
+ L  w_repair_33
+ L  wo_repair_34
+ L  w_repair_34
+ L  wo_repair_35
+ L  w_repair_35
+ L  wo_repair_36
+ L  w_repair_36
+ L  wo_repair_37
+ L  w_repair_37
+ L  wo_repair_38
+ L  w_repair_38
+ L  wo_repair_39
+ L  w_repair_39
+ L  wo_repair_40
+ L  w_repair_40
+ L  wo_repair_41
+ L  w_repair_41
+ L  wo_repair_42
+ L  w_repair_42
+ L  wo_repair_43
+ L  w_repair_43
+ L  wo_repair_44
+ L  w_repair_44
+ L  wo_repair_45
+ L  w_repair_45
+ L  wo_repair_46
+ L  w_repair_46
+ L  wo_repair_47
+ L  w_repair_47
+ L  wo_repair_48
+ L  w_repair_48
+ L  wo_repair_49
+ L  w_repair_49
+ L  wo_repair_50
+ L  w_repair_50
+ L  wo_repair_51
+ L  w_repair_51
+ L  wo_repair_52
+ L  w_repair_52
+ L  wo_repair_53
+ L  w_repair_53
+ L  wo_repair_54
+ L  w_repair_54
+ L  wo_repair_55
+ L  w_repair_55
+ L  wo_repair_56
+ L  w_repair_56
+ L  wo_repair_57
+ L  w_repair_57
+ L  wo_repair_58
+ L  w_repair_58
+ L  wo_repair_59
+ L  w_repair_59
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
     x_0        OBJ        330
-    x_0        wo_repair  -1
+    x_0        wo_repair_0 -1
     x_1        OBJ        226
-    x_1        wo_repair  -1
+    x_1        wo_repair_1 -1
     x_2        OBJ        151
-    x_2        wo_repair  -1
+    x_2        wo_repair_2 -1
     x_3        OBJ        57
-    x_3        wo_repair  -1
+    x_3        wo_repair_3 -1
     x_4        OBJ        220
-    x_4        wo_repair  -1
+    x_4        wo_repair_4 -1
     x_5        OBJ        110
-    x_5        wo_repair  -1
+    x_5        wo_repair_5 -1
     x_6        OBJ        27
-    x_6        wo_repair  -1
+    x_6        wo_repair_6 -1
     x_7        OBJ        191
-    x_7        wo_repair  -1
+    x_7        wo_repair_7 -1
     x_8        OBJ        99
-    x_8        wo_repair  -1
+    x_8        wo_repair_8 -1
     x_9        OBJ        231
-    x_9        wo_repair  -1
+    x_9        wo_repair_9 -1
     x_10       OBJ        95
-    x_10       wo_repair  -1
+    x_10       wo_repair_10 -1
     x_11       OBJ        329
-    x_11       wo_repair  -1
+    x_11       wo_repair_11 -1
     x_12       OBJ        198
-    x_12       wo_repair  -1
+    x_12       wo_repair_12 -1
     x_13       OBJ        58
-    x_13       wo_repair  -1
+    x_13       wo_repair_13 -1
     x_14       OBJ        184
-    x_14       wo_repair  -1
+    x_14       wo_repair_14 -1
     x_15       OBJ        4
-    x_15       wo_repair  -1
+    x_15       wo_repair_15 -1
     x_16       OBJ        139
-    x_16       wo_repair  -1
+    x_16       wo_repair_16 -1
     x_17       OBJ        337
-    x_17       wo_repair  -1
+    x_17       wo_repair_17 -1
     x_18       OBJ        134
-    x_18       wo_repair  -1
+    x_18       wo_repair_18 -1
     x_19       OBJ        272
-    x_19       wo_repair  -1
+    x_19       wo_repair_19 -1
     x_20       OBJ        95
-    x_20       wo_repair  -1
+    x_20       wo_repair_20 -1
     x_21       OBJ        137
-    x_21       wo_repair  -1
+    x_21       wo_repair_21 -1
     x_22       OBJ        82
-    x_22       wo_repair  -1
+    x_22       wo_repair_22 -1
     x_23       OBJ        312
-    x_23       wo_repair  -1
+    x_23       wo_repair_23 -1
     x_24       OBJ        26
-    x_24       wo_repair  -1
+    x_24       wo_repair_24 -1
     x_25       OBJ        141
-    x_25       wo_repair  -1
+    x_25       wo_repair_25 -1
     x_26       OBJ        156
-    x_26       wo_repair  -1
+    x_26       wo_repair_26 -1
     x_27       OBJ        115
-    x_27       wo_repair  -1
+    x_27       wo_repair_27 -1
     x_28       OBJ        88
-    x_28       wo_repair  -1
+    x_28       wo_repair_28 -1
     x_29       OBJ        181
-    x_29       wo_repair  -1
+    x_29       wo_repair_29 -1
     x_30       OBJ        215
-    x_30       wo_repair  -1
+    x_30       wo_repair_30 -1
     x_31       OBJ        311
-    x_31       wo_repair  -1
+    x_31       wo_repair_31 -1
     x_32       OBJ        124
-    x_32       wo_repair  -1
+    x_32       wo_repair_32 -1
     x_33       OBJ        41
-    x_33       wo_repair  -1
+    x_33       wo_repair_33 -1
     x_34       OBJ        37
-    x_34       wo_repair  -1
+    x_34       wo_repair_34 -1
     x_35       OBJ        160
-    x_35       wo_repair  -1
+    x_35       wo_repair_35 -1
     x_36       OBJ        13
-    x_36       wo_repair  -1
+    x_36       wo_repair_36 -1
     x_37       OBJ        179
-    x_37       wo_repair  -1
+    x_37       wo_repair_37 -1
     x_38       OBJ        252
-    x_38       wo_repair  -1
+    x_38       wo_repair_38 -1
     x_39       OBJ        324
-    x_39       wo_repair  -1
+    x_39       wo_repair_39 -1
     x_40       OBJ        14
-    x_40       wo_repair  -1
+    x_40       wo_repair_40 -1
     x_41       OBJ        42
-    x_41       wo_repair  -1
+    x_41       wo_repair_41 -1
     x_42       OBJ        45
-    x_42       wo_repair  -1
+    x_42       wo_repair_42 -1
     x_43       OBJ        111
-    x_43       wo_repair  -1
+    x_43       wo_repair_43 -1
     x_44       OBJ        216
-    x_44       wo_repair  -1
+    x_44       wo_repair_44 -1
     x_45       OBJ        127
-    x_45       wo_repair  -1
+    x_45       wo_repair_45 -1
     x_46       OBJ        0
-    x_46       wo_repair  -1
+    x_46       wo_repair_46 -1
     x_47       OBJ        48
-    x_47       wo_repair  -1
+    x_47       wo_repair_47 -1
     x_48       OBJ        77
-    x_48       wo_repair  -1
+    x_48       wo_repair_48 -1
     x_49       OBJ        261
-    x_49       wo_repair  -1
+    x_49       wo_repair_49 -1
     x_50       OBJ        236
-    x_50       wo_repair  -1
+    x_50       wo_repair_50 -1
     x_51       OBJ        90
-    x_51       wo_repair  -1
+    x_51       wo_repair_51 -1
     x_52       OBJ        289
-    x_52       wo_repair  -1
+    x_52       wo_repair_52 -1
     x_53       OBJ        199
-    x_53       wo_repair  -1
+    x_53       wo_repair_53 -1
     x_54       OBJ        260
-    x_54       wo_repair  -1
+    x_54       wo_repair_54 -1
     x_55       OBJ        182
-    x_55       wo_repair  -1
+    x_55       wo_repair_55 -1
     x_56       OBJ        127
-    x_56       wo_repair  -1
+    x_56       wo_repair_56 -1
     x_57       OBJ        283
-    x_57       wo_repair  -1
+    x_57       wo_repair_57 -1
     x_58       OBJ        37
-    x_58       wo_repair  -1
+    x_58       wo_repair_58 -1
     x_59       OBJ        330
-    x_59       wo_repair  -1
+    x_59       wo_repair_59 -1
     y_0        OBJ        -1242
-    y_0        w_repair   -1
-    y_0        wo_repair  1
+    y_0        w_repair_0 -1
+    y_0        wo_repair_0 1
     y_0        capacity   719
     y_1        OBJ        -749
-    y_1        w_repair   -1
-    y_1        wo_repair  1
+    y_1        w_repair_1 -1
+    y_1        wo_repair_1 1
     y_1        capacity   46
     y_2        OBJ        -643
-    y_2        w_repair   -1
-    y_2        wo_repair  1
+    y_2        w_repair_2 -1
+    y_2        wo_repair_2 1
     y_2        capacity   625
     y_3        OBJ        -204
-    y_3        w_repair   -1
-    y_3        wo_repair  1
+    y_3        w_repair_3 -1
+    y_3        wo_repair_3 1
     y_3        capacity   267
     y_4        OBJ        -1149
-    y_4        wo_repair  1
-    y_4        w_repair   -1
+    y_4        wo_repair_4 1
+    y_4        w_repair_4 -1
     y_4        capacity   965
     y_5        OBJ        -1018
-    y_5        w_repair   -1
-    y_5        wo_repair  1
+    y_5        w_repair_5 -1
+    y_5        wo_repair_5 1
     y_5        capacity   637
     y_6        OBJ        -90
-    y_6        w_repair   -1
-    y_6        wo_repair  1
+    y_6        w_repair_6 -1
+    y_6        wo_repair_6 1
     y_6        capacity   672
     y_7        OBJ        -1180
-    y_7        w_repair   -1
-    y_7        wo_repair  1
+    y_7        w_repair_7 -1
+    y_7        wo_repair_7 1
     y_7        capacity   938
     y_8        OBJ        -622
-    y_8        w_repair   -1
-    y_8        wo_repair  1
+    y_8        w_repair_8 -1
+    y_8        wo_repair_8 1
     y_8        capacity   885
     y_9        OBJ        -735
-    y_9        wo_repair  1
-    y_9        w_repair   -1
+    y_9        wo_repair_9 1
+    y_9        w_repair_9 -1
     y_9        capacity   198
     y_10       OBJ        -335
-    y_10       w_repair   -1
-    y_10       wo_repair  1
+    y_10       w_repair_10 -1
+    y_10       wo_repair_10 1
     y_10       capacity   951
     y_11       OBJ        -1228
-    y_11       w_repair   -1
-    y_11       wo_repair  1
+    y_11       w_repair_11 -1
+    y_11       wo_repair_11 1
     y_11       capacity   988
     y_12       OBJ        -957
-    y_12       w_repair   -1
-    y_12       wo_repair  1
+    y_12       w_repair_12 -1
+    y_12       wo_repair_12 1
     y_12       capacity   445
     y_13       OBJ        -205
-    y_13       w_repair   -1
-    y_13       wo_repair  1
+    y_13       w_repair_13 -1
+    y_13       wo_repair_13 1
     y_13       capacity   509
     y_14       OBJ        -1058
-    y_14       wo_repair  1
-    y_14       w_repair   -1
+    y_14       wo_repair_14 1
+    y_14       w_repair_14 -1
     y_14       capacity   444
     y_15       OBJ        -17
-    y_15       w_repair   -1
-    y_15       wo_repair  1
+    y_15       w_repair_15 -1
+    y_15       wo_repair_15 1
     y_15       capacity   398
     y_16       OBJ        -1021
-    y_16       w_repair   -1
-    y_16       wo_repair  1
+    y_16       w_repair_16 -1
+    y_16       wo_repair_16 1
     y_16       capacity   589
     y_17       OBJ        -1048
-    y_17       w_repair   -1
-    y_17       wo_repair  1
+    y_17       w_repair_17 -1
+    y_17       wo_repair_17 1
     y_17       capacity   576
     y_18       OBJ        -446
-    y_18       w_repair   -1
-    y_18       wo_repair  1
+    y_18       w_repair_18 -1
+    y_18       wo_repair_18 1
     y_18       capacity   274
     y_19       OBJ        -1007
-    y_19       wo_repair  1
-    y_19       w_repair   -1
+    y_19       wo_repair_19 1
+    y_19       w_repair_19 -1
     y_19       capacity   79
     y_20       OBJ        -348
-    y_20       w_repair   -1
-    y_20       wo_repair  1
+    y_20       w_repair_20 -1
+    y_20       wo_repair_20 1
     y_20       capacity   880
     y_21       OBJ        -501
-    y_21       w_repair   -1
-    y_21       wo_repair  1
+    y_21       w_repair_21 -1
+    y_21       wo_repair_21 1
     y_21       capacity   163
     y_22       OBJ        -337
-    y_22       w_repair   -1
-    y_22       wo_repair  1
+    y_22       w_repair_22 -1
+    y_22       wo_repair_22 1
     y_22       capacity   651
     y_23       OBJ        -1078
-    y_23       w_repair   -1
-    y_23       wo_repair  1
+    y_23       w_repair_23 -1
+    y_23       wo_repair_23 1
     y_23       capacity   243
     y_24       OBJ        -87
-    y_24       wo_repair  1
-    y_24       w_repair   -1
+    y_24       wo_repair_24 1
+    y_24       w_repair_24 -1
     y_24       capacity   950
     y_25       OBJ        -737
-    y_25       w_repair   -1
-    y_25       wo_repair  1
+    y_25       w_repair_25 -1
+    y_25       wo_repair_25 1
     y_25       capacity   127
     y_26       OBJ        -1050
-    y_26       w_repair   -1
-    y_26       wo_repair  1
+    y_26       w_repair_26 -1
+    y_26       wo_repair_26 1
     y_26       capacity   880
     y_27       OBJ        -382
-    y_27       w_repair   -1
-    y_27       wo_repair  1
+    y_27       w_repair_27 -1
+    y_27       wo_repair_27 1
     y_27       capacity   979
     y_28       OBJ        -536
-    y_28       w_repair   -1
-    y_28       wo_repair  1
+    y_28       w_repair_28 -1
+    y_28       wo_repair_28 1
     y_28       capacity   926
     y_29       OBJ        -606
-    y_29       wo_repair  1
-    y_29       w_repair   -1
+    y_29       wo_repair_29 1
+    y_29       w_repair_29 -1
     y_29       capacity   135
     y_30       OBJ        -939
-    y_30       w_repair   -1
-    y_30       wo_repair  1
+    y_30       w_repair_30 -1
+    y_30       wo_repair_30 1
     y_30       capacity   908
     y_31       OBJ        -1132
-    y_31       w_repair   -1
-    y_31       wo_repair  1
+    y_31       w_repair_31 -1
+    y_31       wo_repair_31 1
     y_31       capacity   675
     y_32       OBJ        -788
-    y_32       w_repair   -1
-    y_32       wo_repair  1
+    y_32       w_repair_32 -1
+    y_32       wo_repair_32 1
     y_32       capacity   834
     y_33       OBJ        -404
-    y_33       w_repair   -1
-    y_33       wo_repair  1
+    y_33       w_repair_33 -1
+    y_33       wo_repair_33 1
     y_33       capacity   201
     y_34       OBJ        -130
-    y_34       wo_repair  1
-    y_34       w_repair   -1
+    y_34       wo_repair_34 1
+    y_34       w_repair_34 -1
     y_34       capacity   354
     y_35       OBJ        -1030
-    y_35       w_repair   -1
-    y_35       wo_repair  1
+    y_35       w_repair_35 -1
+    y_35       wo_repair_35 1
     y_35       capacity   594
     y_36       OBJ        -125
-    y_36       w_repair   -1
-    y_36       wo_repair  1
+    y_36       w_repair_36 -1
+    y_36       wo_repair_36 1
     y_36       capacity   447
     y_37       OBJ        -643
-    y_37       w_repair   -1
-    y_37       wo_repair  1
+    y_37       w_repair_37 -1
+    y_37       wo_repair_37 1
     y_37       capacity   962
     y_38       OBJ        -875
-    y_38       w_repair   -1
-    y_38       wo_repair  1
+    y_38       w_repair_38 -1
+    y_38       wo_repair_38 1
     y_38       capacity   177
     y_39       OBJ        -1036
-    y_39       wo_repair  1
-    y_39       w_repair   -1
+    y_39       wo_repair_39 1
+    y_39       w_repair_39 -1
     y_39       capacity   895
     y_40       OBJ        -46
-    y_40       w_repair   -1
-    y_40       wo_repair  1
+    y_40       w_repair_40 -1
+    y_40       wo_repair_40 1
     y_40       capacity   903
     y_41       OBJ        -329
-    y_41       w_repair   -1
-    y_41       wo_repair  1
+    y_41       w_repair_41 -1
+    y_41       wo_repair_41 1
     y_41       capacity   878
     y_42       OBJ        -360
-    y_42       w_repair   -1
-    y_42       wo_repair  1
+    y_42       w_repair_42 -1
+    y_42       wo_repair_42 1
     y_42       capacity   434
     y_43       OBJ        -970
-    y_43       w_repair   -1
-    y_43       wo_repair  1
+    y_43       w_repair_43 -1
+    y_43       wo_repair_43 1
     y_43       capacity   811
     y_44       OBJ        -1031
-    y_44       wo_repair  1
-    y_44       w_repair   -1
+    y_44       wo_repair_44 1
+    y_44       w_repair_44 -1
     y_44       capacity   976
     y_45       OBJ        -387
-    y_45       w_repair   -1
-    y_45       wo_repair  1
+    y_45       w_repair_45 -1
+    y_45       wo_repair_45 1
     y_45       capacity   174
     y_46       OBJ        -1
-    y_46       w_repair   -1
-    y_46       wo_repair  1
+    y_46       w_repair_46 -1
+    y_46       wo_repair_46 1
     y_46       capacity   378
     y_47       OBJ        -200
-    y_47       w_repair   -1
-    y_47       wo_repair  1
+    y_47       w_repair_47 -1
+    y_47       wo_repair_47 1
     y_47       capacity   27
     y_48       OBJ        -374
-    y_48       w_repair   -1
-    y_48       wo_repair  1
+    y_48       w_repair_48 -1
+    y_48       wo_repair_48 1
     y_48       capacity   724
     y_49       OBJ        -1112
-    y_49       wo_repair  1
-    y_49       w_repair   -1
+    y_49       wo_repair_49 1
+    y_49       w_repair_49 -1
     y_49       capacity   888
     y_50       OBJ        -1162
-    y_50       w_repair   -1
-    y_50       wo_repair  1
+    y_50       w_repair_50 -1
+    y_50       wo_repair_50 1
     y_50       capacity   36
     y_51       OBJ        -464
-    y_51       w_repair   -1
-    y_51       wo_repair  1
+    y_51       w_repair_51 -1
+    y_51       wo_repair_51 1
     y_51       capacity   19
     y_52       OBJ        -1101
-    y_52       w_repair   -1
-    y_52       wo_repair  1
+    y_52       w_repair_52 -1
+    y_52       wo_repair_52 1
     y_52       capacity   473
     y_53       OBJ        -1091
-    y_53       w_repair   -1
-    y_53       wo_repair  1
+    y_53       w_repair_53 -1
+    y_53       wo_repair_53 1
     y_53       capacity   188
     y_54       OBJ        -1011
-    y_54       wo_repair  1
-    y_54       w_repair   -1
+    y_54       wo_repair_54 1
+    y_54       w_repair_54 -1
     y_54       capacity   651
     y_55       OBJ        -648
-    y_55       w_repair   -1
-    y_55       wo_repair  1
+    y_55       w_repair_55 -1
+    y_55       wo_repair_55 1
     y_55       capacity   166
     y_56       OBJ        -409
-    y_56       w_repair   -1
-    y_56       wo_repair  1
+    y_56       w_repair_56 -1
+    y_56       wo_repair_56 1
     y_56       capacity   836
     y_57       OBJ        -1009
-    y_57       w_repair   -1
-    y_57       wo_repair  1
+    y_57       w_repair_57 -1
+    y_57       wo_repair_57 1
     y_57       capacity   87
     y_58       OBJ        -206
-    y_58       w_repair   -1
-    y_58       wo_repair  1
+    y_58       w_repair_58 -1
+    y_58       wo_repair_58 1
     y_58       capacity   548
     y_59       OBJ        -1038
-    y_59       wo_repair  1
-    y_59       w_repair   -1
+    y_59       wo_repair_59 1
+    y_59       w_repair_59 -1
     y_59       capacity   409
     r_0        OBJ        0
-    r_0        w_repair   1
+    r_0        w_repair_0 1
     r_0        capacity   635
     r_1        OBJ        0
-    r_1        w_repair   1
+    r_1        w_repair_1 1
     r_1        capacity   3
     r_2        OBJ        0
-    r_2        w_repair   1
+    r_2        w_repair_2 1
     r_2        capacity   315
     r_3        OBJ        0
-    r_3        w_repair   1
+    r_3        w_repair_3 1
     r_3        capacity   258
     r_4        OBJ        0
-    r_4        w_repair   1
+    r_4        w_repair_4 1
     r_4        capacity   657
     r_5        OBJ        0
-    r_5        w_repair   1
+    r_5        w_repair_5 1
     r_5        capacity   276
     r_6        OBJ        0
-    r_6        w_repair   1
+    r_6        w_repair_6 1
     r_6        capacity   397
     r_7        OBJ        0
-    r_7        w_repair   1
+    r_7        w_repair_7 1
     r_7        capacity   114
     r_8        OBJ        0
-    r_8        w_repair   1
+    r_8        w_repair_8 1
     r_8        capacity   82
     r_9        OBJ        0
-    r_9        w_repair   1
+    r_9        w_repair_9 1
     r_9        capacity   24
     r_10       OBJ        0
-    r_10       w_repair   1
+    r_10       w_repair_10 1
     r_10       capacity   940
     r_11       OBJ        0
-    r_11       w_repair   1
+    r_11       w_repair_11 1
     r_11       capacity   608
     r_12       OBJ        0
-    r_12       w_repair   1
+    r_12       w_repair_12 1
     r_12       capacity   307
     r_13       OBJ        0
-    r_13       w_repair   1
+    r_13       w_repair_13 1
     r_13       capacity   90
     r_14       OBJ        0
-    r_14       w_repair   1
+    r_14       w_repair_14 1
     r_14       capacity   132
     r_15       OBJ        0
-    r_15       w_repair   1
+    r_15       w_repair_15 1
     r_15       capacity   353
     r_16       OBJ        0
-    r_16       w_repair   1
+    r_16       w_repair_16 1
     r_16       capacity   287
     r_17       OBJ        0
-    r_17       w_repair   1
+    r_17       w_repair_17 1
     r_17       capacity   523
     r_18       OBJ        0
-    r_18       w_repair   1
+    r_18       w_repair_18 1
     r_18       capacity   10
     r_19       OBJ        0
-    r_19       w_repair   1
+    r_19       w_repair_19 1
     r_19       capacity   49
     r_20       OBJ        0
-    r_20       w_repair   1
+    r_20       w_repair_20 1
     r_20       capacity   658
     r_21       OBJ        0
-    r_21       w_repair   1
+    r_21       w_repair_21 1
     r_21       capacity   90
     r_22       OBJ        0
-    r_22       w_repair   1
+    r_22       w_repair_22 1
     r_22       capacity   478
     r_23       OBJ        0
-    r_23       w_repair   1
+    r_23       w_repair_23 1
     r_23       capacity   16
     r_24       OBJ        0
-    r_24       w_repair   1
+    r_24       w_repair_24 1
     r_24       capacity   674
     r_25       OBJ        0
-    r_25       w_repair   1
+    r_25       w_repair_25 1
     r_25       capacity   117
     r_26       OBJ        0
-    r_26       w_repair   1
+    r_26       w_repair_26 1
     r_26       capacity   95
     r_27       OBJ        0
-    r_27       w_repair   1
+    r_27       w_repair_27 1
     r_27       capacity   33
     r_28       OBJ        0
-    r_28       w_repair   1
+    r_28       w_repair_28 1
     r_28       capacity   131
     r_29       OBJ        0
-    r_29       w_repair   1
+    r_29       w_repair_29 1
     r_29       capacity   97
     r_30       OBJ        0
-    r_30       w_repair   1
+    r_30       w_repair_30 1
     r_30       capacity   586
     r_31       OBJ        0
-    r_31       w_repair   1
+    r_31       w_repair_31 1
     r_31       capacity   122
     r_32       OBJ        0
-    r_32       w_repair   1
+    r_32       w_repair_32 1
     r_32       capacity   215
     r_33       OBJ        0
-    r_33       w_repair   1
+    r_33       w_repair_33 1
     r_33       capacity   108
     r_34       OBJ        0
-    r_34       w_repair   1
+    r_34       w_repair_34 1
     r_34       capacity   32
     r_35       OBJ        0
-    r_35       w_repair   1
+    r_35       w_repair_35 1
     r_35       capacity   524
     r_36       OBJ        0
-    r_36       w_repair   1
+    r_36       w_repair_36 1
     r_36       capacity   335
     r_37       OBJ        0
-    r_37       w_repair   1
+    r_37       w_repair_37 1
     r_37       capacity   108
     r_38       OBJ        0
-    r_38       w_repair   1
+    r_38       w_repair_38 1
     r_38       capacity   28
     r_39       OBJ        0
-    r_39       w_repair   1
+    r_39       w_repair_39 1
     r_39       capacity   10
     r_40       OBJ        0
-    r_40       w_repair   1
+    r_40       w_repair_40 1
     r_40       capacity   351
     r_41       OBJ        0
-    r_41       w_repair   1
+    r_41       w_repair_41 1
     r_41       capacity   828
     r_42       OBJ        0
-    r_42       w_repair   1
+    r_42       w_repair_42 1
     r_42       capacity   175
     r_43       OBJ        0
-    r_43       w_repair   1
+    r_43       w_repair_43 1
     r_43       capacity   340
     r_44       OBJ        0
-    r_44       w_repair   1
+    r_44       w_repair_44 1
     r_44       capacity   225
     r_45       OBJ        0
-    r_45       w_repair   1
+    r_45       w_repair_45 1
     r_45       capacity   86
     r_46       OBJ        0
-    r_46       w_repair   1
+    r_46       w_repair_46 1
     r_46       capacity   216
     r_47       OBJ        0
-    r_47       w_repair   1
+    r_47       w_repair_47 1
     r_47       capacity   8
     r_48       OBJ        0
-    r_48       w_repair   1
+    r_48       w_repair_48 1
     r_48       capacity   554
     r_49       OBJ        0
-    r_49       w_repair   1
+    r_49       w_repair_49 1
     r_49       capacity   423
     r_50       OBJ        0
-    r_50       w_repair   1
+    r_50       w_repair_50 1
     r_50       capacity   28
     r_51       OBJ        0
-    r_51       w_repair   1
+    r_51       w_repair_51 1
     r_51       capacity   5
     r_52       OBJ        0
-    r_52       w_repair   1
+    r_52       w_repair_52 1
     r_52       capacity   222
     r_53       OBJ        0
-    r_53       w_repair   1
+    r_53       w_repair_53 1
     r_53       capacity   21
     r_54       OBJ        0
-    r_54       w_repair   1
+    r_54       w_repair_54 1
     r_54       capacity   226
     r_55       OBJ        0
-    r_55       w_repair   1
+    r_55       w_repair_55 1
     r_55       capacity   2
     r_56       OBJ        0
-    r_56       w_repair   1
+    r_56       w_repair_56 1
     r_56       capacity   641
     r_57       OBJ        0
-    r_57       w_repair   1
+    r_57       w_repair_57 1
     r_57       capacity   59
     r_58       OBJ        0
-    r_58       w_repair   1
+    r_58       w_repair_58 1
     r_58       capacity   101
     r_59       OBJ        0
-    r_59       w_repair   1
+    r_59       w_repair_59 1
     r_59       capacity   137
     MARKER    'MARKER'                 'INTEND'
 RHS
     RHS       capacity   12986
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
-    RHS       wo_repair  -0
-    RHS       w_repair   -0
+    RHS       wo_repair_0 -0
+    RHS       w_repair_0 -0
+    RHS       wo_repair_1 -0
+    RHS       w_repair_1 -0
+    RHS       wo_repair_2 -0
+    RHS       w_repair_2 -0
+    RHS       wo_repair_3 -0
+    RHS       w_repair_3 -0
+    RHS       wo_repair_4 -0
+    RHS       w_repair_4 -0
+    RHS       wo_repair_5 -0
+    RHS       w_repair_5 -0
+    RHS       wo_repair_6 -0
+    RHS       w_repair_6 -0
+    RHS       wo_repair_7 -0
+    RHS       w_repair_7 -0
+    RHS       wo_repair_8 -0
+    RHS       w_repair_8 -0
+    RHS       wo_repair_9 -0
+    RHS       w_repair_9 -0
+    RHS       wo_repair_10 -0
+    RHS       w_repair_10 -0
+    RHS       wo_repair_11 -0
+    RHS       w_repair_11 -0
+    RHS       wo_repair_12 -0
+    RHS       w_repair_12 -0
+    RHS       wo_repair_13 -0
+    RHS       w_repair_13 -0
+    RHS       wo_repair_14 -0
+    RHS       w_repair_14 -0
+    RHS       wo_repair_15 -0
+    RHS       w_repair_15 -0
+    RHS       wo_repair_16 -0
+    RHS       w_repair_16 -0
+    RHS       wo_repair_17 -0
+    RHS       w_repair_17 -0
+    RHS       wo_repair_18 -0
+    RHS       w_repair_18 -0
+    RHS       wo_repair_19 -0
+    RHS       w_repair_19 -0
+    RHS       wo_repair_20 -0
+    RHS       w_repair_20 -0
+    RHS       wo_repair_21 -0
+    RHS       w_repair_21 -0
+    RHS       wo_repair_22 -0
+    RHS       w_repair_22 -0
+    RHS       wo_repair_23 -0
+    RHS       w_repair_23 -0
+    RHS       wo_repair_24 -0
+    RHS       w_repair_24 -0
+    RHS       wo_repair_25 -0
+    RHS       w_repair_25 -0
+    RHS       wo_repair_26 -0
+    RHS       w_repair_26 -0
+    RHS       wo_repair_27 -0
+    RHS       w_repair_27 -0
+    RHS       wo_repair_28 -0
+    RHS       w_repair_28 -0
+    RHS       wo_repair_29 -0
+    RHS       w_repair_29 -0
+    RHS       wo_repair_30 -0
+    RHS       w_repair_30 -0
+    RHS       wo_repair_31 -0
+    RHS       w_repair_31 -0
+    RHS       wo_repair_32 -0
+    RHS       w_repair_32 -0
+    RHS       wo_repair_33 -0
+    RHS       w_repair_33 -0
+    RHS       wo_repair_34 -0
+    RHS       w_repair_34 -0
+    RHS       wo_repair_35 -0
+    RHS       w_repair_35 -0
+    RHS       wo_repair_36 -0
+    RHS       w_repair_36 -0
+    RHS       wo_repair_37 -0
+    RHS       w_repair_37 -0
+    RHS       wo_repair_38 -0
+    RHS       w_repair_38 -0
+    RHS       wo_repair_39 -0
+    RHS       w_repair_39 -0
+    RHS       wo_repair_40 -0
+    RHS       w_repair_40 -0
+    RHS       wo_repair_41 -0
+    RHS       w_repair_41 -0
+    RHS       wo_repair_42 -0
+    RHS       w_repair_42 -0
+    RHS       wo_repair_43 -0
+    RHS       w_repair_43 -0
+    RHS       wo_repair_44 -0
+    RHS       w_repair_44 -0
+    RHS       wo_repair_45 -0
+    RHS       w_repair_45 -0
+    RHS       wo_repair_46 -0
+    RHS       w_repair_46 -0
+    RHS       wo_repair_47 -0
+    RHS       w_repair_47 -0
+    RHS       wo_repair_48 -0
+    RHS       w_repair_48 -0
+    RHS       wo_repair_49 -0
+    RHS       w_repair_49 -0
+    RHS       wo_repair_50 -0
+    RHS       w_repair_50 -0
+    RHS       wo_repair_51 -0
+    RHS       w_repair_51 -0
+    RHS       wo_repair_52 -0
+    RHS       w_repair_52 -0
+    RHS       wo_repair_53 -0
+    RHS       w_repair_53 -0
+    RHS       wo_repair_54 -0
+    RHS       w_repair_54 -0
+    RHS       wo_repair_55 -0
+    RHS       w_repair_55 -0
+    RHS       wo_repair_56 -0
+    RHS       w_repair_56 -0
+    RHS       wo_repair_57 -0
+    RHS       w_repair_57 -0
+    RHS       wo_repair_58 -0
+    RHS       w_repair_58 -0
+    RHS       wo_repair_59 -0
+    RHS       w_repair_59 -0
 BOUNDS
  LI BND       x_0        0
  UI BND       x_0        1
