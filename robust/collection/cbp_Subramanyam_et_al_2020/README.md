@@ -21,7 +21,8 @@ Here, $Y(x,u)$ denotes the second-stage feasible space given by
 ```math
 \begin{align}
     & \sum_{i=1}^n r_i(u)(x + y) \le B, \\
-    & x_i + y_i \le 1, \quad\text{for all }i=1,...,n.
+    & x_i + y_i \le 1, \quad\text{for all }i=1,...,n, \\
+    & y_i \in \{0,1\}, \quad\text{for all }i=1,...,n.
 \end{align}
 ```
 
