@@ -1,0 +1,2 @@
+add_executable(spp_Lefebvre_et_al_2026 main.cpp)
+target_link_libraries(spp_Lefebvre_et_al_2026 PUBLIC idol)
