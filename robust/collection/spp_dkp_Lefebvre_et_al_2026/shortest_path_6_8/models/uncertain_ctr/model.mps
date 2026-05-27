@@ -1,0 +1,171 @@
+NAME /Users/henri/Research/solvers/instances/idol-instances/robust/collection/spp_dkp_Lefebvre_et_al_2026/shortest_path_6_8/models/uncertain_ctr/model
+ROWS
+ N  OBJ
+ E  flow_cons_inner_nodes[0]
+ E  flow_cons_inner_nodes[1]
+ E  flow_cons_inner_nodes[2]
+ E  flow_cons_inner_nodes[5]
+ E  flow_cons_source
+ E  flow_cons_target
+ G  c_19448
+COLUMNS
+    z          OBJ        1
+    z          c_19448    1
+    MARKER    'MARKER'                 'INTORG'
+    y[0,1]     OBJ        0
+    y[0,1]     flow_cons_inner_nodes[1] 1
+    y[0,1]     c_19448    -49.98
+    y[0,1]     flow_cons_inner_nodes[0] -1
+    y[0,2]     OBJ        0
+    y[0,2]     flow_cons_inner_nodes[2] 1
+    y[0,2]     c_19448    -62.77
+    y[0,2]     flow_cons_inner_nodes[0] -1
+    y[0,3]     OBJ        0
+    y[0,3]     flow_cons_source -1
+    y[0,3]     c_19448    -64.07
+    y[0,3]     flow_cons_inner_nodes[0] -1
+    y[0,4]     OBJ        0
+    y[0,4]     c_19448    -31.89
+    y[0,4]     flow_cons_target 1
+    y[0,4]     flow_cons_inner_nodes[0] -1
+    y[0,5]     OBJ        0
+    y[0,5]     flow_cons_inner_nodes[5] 1
+    y[0,5]     c_19448    -7.81
+    y[0,5]     flow_cons_inner_nodes[0] -1
+    y[1,0]     OBJ        0
+    y[1,0]     flow_cons_inner_nodes[1] -1
+    y[1,0]     c_19448    -49.98
+    y[1,0]     flow_cons_inner_nodes[0] 1
+    y[1,2]     OBJ        0
+    y[1,2]     c_19448    -16.55
+    y[1,2]     flow_cons_inner_nodes[2] 1
+    y[1,2]     flow_cons_inner_nodes[1] -1
+    y[1,3]     OBJ        0
+    y[1,3]     c_19448    -22.02
+    y[1,3]     flow_cons_source -1
+    y[1,3]     flow_cons_inner_nodes[1] -1
+    y[1,5]     OBJ        0
+    y[1,5]     c_19448    -46.53
+    y[1,5]     flow_cons_inner_nodes[5] 1
+    y[1,5]     flow_cons_inner_nodes[1] -1
+    y[2,0]     OBJ        0
+    y[2,0]     flow_cons_inner_nodes[2] -1
+    y[2,0]     c_19448    -62.77
+    y[2,0]     flow_cons_inner_nodes[0] 1
+    y[2,1]     OBJ        0
+    y[2,1]     c_19448    -16.55
+    y[2,1]     flow_cons_inner_nodes[2] -1
+    y[2,1]     flow_cons_inner_nodes[1] 1
+    y[2,3]     OBJ        0
+    y[2,3]     c_19448    -30.68
+    y[2,3]     flow_cons_source -1
+    y[2,3]     flow_cons_inner_nodes[2] -1
+    y[2,5]     OBJ        0
+    y[2,5]     c_19448    -60.61
+    y[2,5]     flow_cons_inner_nodes[5] 1
+    y[2,5]     flow_cons_inner_nodes[2] -1
+    y[3,0]     OBJ        0
+    y[3,0]     flow_cons_source 1
+    y[3,0]     c_19448    -64.07
+    y[3,0]     flow_cons_inner_nodes[0] 1
+    y[3,1]     OBJ        0
+    y[3,1]     c_19448    -22.02
+    y[3,1]     flow_cons_source 1
+    y[3,1]     flow_cons_inner_nodes[1] 1
+    y[3,2]     OBJ        0
+    y[3,2]     c_19448    -30.68
+    y[3,2]     flow_cons_source 1
+    y[3,2]     flow_cons_inner_nodes[2] 1
+    y[3,5]     OBJ        0
+    y[3,5]     c_19448    -58.55
+    y[3,5]     flow_cons_source 1
+    y[3,5]     flow_cons_inner_nodes[5] 1
+    y[4,0]     OBJ        0
+    y[4,0]     c_19448    -31.89
+    y[4,0]     flow_cons_target -1
+    y[4,0]     flow_cons_inner_nodes[0] 1
+    y[4,5]     OBJ        0
+    y[4,5]     c_19448    -39.7
+    y[4,5]     flow_cons_target -1
+    y[4,5]     flow_cons_inner_nodes[5] 1
+    y[5,0]     OBJ        0
+    y[5,0]     flow_cons_inner_nodes[5] -1
+    y[5,0]     c_19448    -7.81
+    y[5,0]     flow_cons_inner_nodes[0] 1
+    y[5,1]     OBJ        0
+    y[5,1]     c_19448    -46.53
+    y[5,1]     flow_cons_inner_nodes[5] -1
+    y[5,1]     flow_cons_inner_nodes[1] 1
+    y[5,2]     OBJ        0
+    y[5,2]     c_19448    -60.61
+    y[5,2]     flow_cons_inner_nodes[5] -1
+    y[5,2]     flow_cons_inner_nodes[2] 1
+    y[5,3]     OBJ        0
+    y[5,3]     c_19448    -58.55
+    y[5,3]     flow_cons_source -1
+    y[5,3]     flow_cons_inner_nodes[5] -1
+    y[5,4]     OBJ        0
+    y[5,4]     c_19448    -39.7
+    y[5,4]     flow_cons_target 1
+    y[5,4]     flow_cons_inner_nodes[5] -1
+    MARKER    'MARKER'                 'INTEND'
+RHS
+    RHS       flow_cons_inner_nodes[0] -0
+    RHS       flow_cons_inner_nodes[1] -0
+    RHS       flow_cons_inner_nodes[2] -0
+    RHS       flow_cons_inner_nodes[5] -0
+    RHS       flow_cons_source 1
+    RHS       flow_cons_target 1
+    RHS       c_19448    -0
+BOUNDS
+ LI BND       y[0,1]     0
+ UI BND       y[0,1]     1
+ LI BND       y[0,2]     0
+ UI BND       y[0,2]     1
+ LI BND       y[0,3]     0
+ UI BND       y[0,3]     1
+ LI BND       y[0,4]     0
+ UI BND       y[0,4]     1
+ LI BND       y[0,5]     0
+ UI BND       y[0,5]     1
+ LI BND       y[1,0]     0
+ UI BND       y[1,0]     1
+ LI BND       y[1,2]     0
+ UI BND       y[1,2]     1
+ LI BND       y[1,3]     0
+ UI BND       y[1,3]     1
+ LI BND       y[1,5]     0
+ UI BND       y[1,5]     1
+ LI BND       y[2,0]     0
+ UI BND       y[2,0]     1
+ LI BND       y[2,1]     0
+ UI BND       y[2,1]     1
+ LI BND       y[2,3]     0
+ UI BND       y[2,3]     1
+ LI BND       y[2,5]     0
+ UI BND       y[2,5]     1
+ LI BND       y[3,0]     0
+ UI BND       y[3,0]     1
+ LI BND       y[3,1]     0
+ UI BND       y[3,1]     1
+ LI BND       y[3,2]     0
+ UI BND       y[3,2]     1
+ LI BND       y[3,5]     0
+ UI BND       y[3,5]     1
+ LI BND       y[4,0]     0
+ UI BND       y[4,0]     1
+ LI BND       y[4,5]     0
+ UI BND       y[4,5]     1
+ LI BND       y[5,0]     0
+ UI BND       y[5,0]     1
+ LI BND       y[5,1]     0
+ UI BND       y[5,1]     1
+ LI BND       y[5,2]     0
+ UI BND       y[5,2]     1
+ LI BND       y[5,3]     0
+ UI BND       y[5,3]     1
+ LI BND       y[5,4]     0
+ UI BND       y[5,4]     1
+ LO BND       z          0
+ UP BND       z          1188.61
+ENDATA

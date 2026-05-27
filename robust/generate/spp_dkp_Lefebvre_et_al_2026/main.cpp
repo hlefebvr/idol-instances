@@ -13,6 +13,108 @@
 
 using namespace idol;
 
+std::pair<Model, Robust::Description> create_uncertain_obj_model(const Model& t_model, const std::string& t_dest_folder) {
+
+    auto deterministic_model = t_model.copy();
+    auto uncertainty_set = t_model.copy();
+
+    for (const auto& ctr : t_model.ctrs()) {
+        if (!ctr.name().starts_with("flow_")) {
+            deterministic_model.remove(ctr);
+        }
+        if (!ctr.name().starts_with("primal_")) {
+            uncertainty_set.remove(ctr);
+        }
+    }
+    for (const auto& var : t_model.vars()) {
+        if (var.name().starts_with("r")) {
+            deterministic_model.remove(var);
+            uncertainty_set.remove(var);
+        } else if (var.name().starts_with("u")) {
+            deterministic_model.remove(var);
+        }
+    }
+    uncertainty_set.set_obj_expr(0.);
+
+    Robust::Description robust_description(uncertainty_set);
+
+    for (const auto& var : deterministic_model.vars()) {
+        auto unc_name = var.name();
+        unc_name[0] = 'u';
+        for (const auto& unc_var : uncertainty_set.vars()) {
+            if (unc_var.name() == unc_name) {
+                robust_description.set_uncertain_obj(var, .1 * deterministic_model.get_var_obj(var) * unc_var);
+                break;
+            }
+        }
+    }
+
+    std::filesystem::create_directories(t_dest_folder + "/models/uncertain_obj");
+    std::filesystem::create_directories(t_dest_folder + "/uncertainty_sets");
+    write_to_file(deterministic_model, t_dest_folder + "/models/uncertain_obj/model");
+    Robust::write_par_file(robust_description, t_dest_folder + "/models/uncertain_obj/uncertainty.par");
+    write_to_file(uncertainty_set, t_dest_folder + "/uncertainty_sets/discrete_knapsack");
+
+    return {
+        std::move(deterministic_model),
+        std::move(robust_description)
+    };
+}
+
+std::pair<Model, Robust::Description> create_uncertain_ctr_model(const Model& t_model, const std::string& t_dest_folder) {
+
+    auto deterministic_model = t_model.copy();
+    auto uncertainty_set = t_model.copy();
+
+    for (const auto& ctr : t_model.ctrs()) {
+        if (!ctr.name().starts_with("flow_")) {
+            deterministic_model.remove(ctr);
+        }
+        if (!ctr.name().starts_with("primal_")) {
+            uncertainty_set.remove(ctr);
+        }
+    }
+    for (const auto& var : t_model.vars()) {
+        if (var.name().starts_with("r")) {
+            deterministic_model.remove(var);
+            uncertainty_set.remove(var);
+        } else if (var.name().starts_with("u")) {
+            deterministic_model.remove(var);
+        }
+    }
+    uncertainty_set.set_obj_expr(0.);
+
+    double UB = idol_Sum(var, t_model.vars(), 1.1 * t_model.get_var_obj(var));
+
+    const auto epigraph = deterministic_model.add_var(0, UB, Continuous, 0, "z");
+    const auto c = deterministic_model.add_ctr(epigraph >= deterministic_model.get_obj_expr().affine().linear());
+
+    Robust::Description robust_description(uncertainty_set);
+
+    for (const auto& var : deterministic_model.vars()) {
+        auto unc_name = var.name();
+        unc_name[0] = 'u';
+        for (const auto& unc_var : uncertainty_set.vars()) {
+            if (unc_var.name() == unc_name) {
+                robust_description.set_uncertain_mat_coeff(c, var, .1 * deterministic_model.get_var_obj(var) * unc_var);
+                break;
+            }
+        }
+    }
+    deterministic_model.set_obj_expr(epigraph);
+
+    std::filesystem::create_directories(t_dest_folder + "/models/uncertain_ctr");
+    std::filesystem::create_directories(t_dest_folder + "/uncertainty_sets");
+    write_to_file(deterministic_model, t_dest_folder + "/models/uncertain_ctr/model");
+    Robust::write_par_file(robust_description, t_dest_folder + "/models/uncertain_ctr/uncertainty.par");
+    write_to_file(uncertainty_set, t_dest_folder + "/uncertainty_sets/discrete_knapsack");
+
+    return {
+        std::move(deterministic_model),
+        std::move(robust_description)
+    };
+}
+
 int main(int t_argc, const char** t_argv) {
 
 
@@ -38,52 +140,8 @@ int main(int t_argc, const char** t_argv) {
         const auto mps_file = base_path + ".mps";
 
         auto model = Model::read_from_file(env, mps_file);
-        auto uncertainty_set = model.copy();
-
-        std::list<Ctr> ctrs_to_remove_from_model, ctrs_to_remove_from_uncertainty_set;
-        std::list<Var> vars_to_remove_from_model, vars_to_remove_from_uncertainty_set;
-        Map<Var, Var> y_to_u;
-        for (const auto& ctr : model.ctrs()) {
-            if (!ctr.name().starts_with("flow_")) {
-                ctrs_to_remove_from_model.push_back(ctr);
-            }
-            if (!ctr.name().starts_with("primal_")) {
-                ctrs_to_remove_from_uncertainty_set.push_back(ctr);
-            }
-        }
-        for (const auto& var : model.vars()) {
-            if (var.name().starts_with("r")) {
-                vars_to_remove_from_model.push_back(var);
-                vars_to_remove_from_uncertainty_set.push_back(var);
-            } else if (var.name().starts_with("u")) {
-                vars_to_remove_from_model.push_back(var);
-            }
-        }
-        for (const auto& ctr : ctrs_to_remove_from_model) { model.remove(ctr); }
-        for (const auto& var : vars_to_remove_from_model) { model.remove(var); }
-        for (const auto& ctr : ctrs_to_remove_from_uncertainty_set) { uncertainty_set.remove(ctr); }
-        for (const auto& var : vars_to_remove_from_uncertainty_set) { uncertainty_set.remove(var); }
-        uncertainty_set.set_obj_expr(0.);
-
-        Robust::Description robust_description(uncertainty_set);
-
-        for (const auto& var : model.vars()) {
-            auto unc_name = var.name();
-            unc_name[0] = 'u';
-            for (const auto& unc_var : uncertainty_set.vars()) {
-                if (unc_var.name() == unc_name) {
-                    robust_description.set_uncertain_obj(var, .1 * model.get_var_obj(var) * unc_var);
-                    break;
-                }
-            }
-        }
-
-        std::filesystem::create_directories(dest_folder + "/models/uncertain_obj");
-        std::filesystem::create_directories(dest_folder + "/uncertainty_sets");
-        write_to_file(model, dest_folder + "/models/uncertain_obj/model");
-        Robust::write_par_file(robust_description, dest_folder + "/models/uncertain_obj/uncertainty.par");
-        write_to_file(uncertainty_set, dest_folder + "/uncertainty_sets/discrete_knapsack");
-
+        create_uncertain_obj_model(model, dest_folder);
+        create_uncertain_ctr_model(model, dest_folder);
     }
 
 
